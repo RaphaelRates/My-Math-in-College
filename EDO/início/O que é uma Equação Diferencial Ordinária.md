@@ -31,9 +31,9 @@ Elas permitem **modelar, prever e entender** o comportamento dinâmico de sistem
 | -------------- | -------------------------------------------------- | ------------------------ |
 | **Ordem**      | Maior derivada presente                            | $y'' + y = 0$ → 2ª ordem |
 | **Linear**     | $a_n(x)y^{(n)} + \dots + a_0(x)y = g(x)$           | $y' + y = x$             |
-| **Não Linear** | Quando depende de potências ou produtos de (y, y') | $y' = y^2 + x$           |
-| **Autônoma**   | Não depende explicitamente de (x)                  | $y' = y(1 - y)$          |
-| **Separável**  | Pode ser escrita como (g(y)dy = h(x)dx)            | $y' = xy^2$              |
+| **Não Linear** | Quando depende de potências ou produtos de $y, y'$ | $y' = y^2 + x$           |
+| **Autônoma**   | Não depende explicitamente de $x$                  | $y' = y(1 - y)$          |
+| **Separável**  | Pode ser escrita como $g(y)dy = h(x)dx$            | $y' = xy^2$              |
 
 ---
 
@@ -45,7 +45,7 @@ y' = f(x, y), \
 y(x_0) = y_0  
 \end{cases}$$
 
-Um **PVI** busca a função (y(x)) que satisfaz a EDO e passa pelo ponto inicial ((x_0, y_0)).
+Um **PVI** busca a função $y(x)$ que satisfaz a EDO e passa pelo ponto inicial $(x_0, y_0)$.
 
 ---
 
@@ -63,10 +63,10 @@ Se $f$ e $\partial f / \partial y$ forem contínuas numa vizinhança de $(x_0, y
 
 | Tipo                          | Ideia básica                                    | Exemplo                             |
 | ----------------------------- | ----------------------------------------------- | ----------------------------------- |
-| **Separáveis**                | Separe e integre                                | (y' = xy^2 → \frac{dy}{y^2} = xdx)  |
-| **Linear 1ª ordem**           | Fator integrante $\mu = e^{\int p(x)dx}$        | (y' - 2y = e^x)                     |
-| **Exatas**                    | $\partial M/\partial y = \partial N/\partial x$ | (Mdx + Ndy = 0)                     |
-| **2ª ordem linear homogênea** | Resolva equação característica                  | (y'' - 3y' + 2y = 0)                |
+| **Separáveis**                | Separe e integre                                | $y' = xy^2 → \frac{dy}{y^2} = xdx$  |
+| **Linear 1ª ordem**           | Fator integrante $\mu = e^{\int p(x)dx}$        | $y' - 2y = e^x$                     |
+| **Exatas**                    | $\partial M/\partial y = \partial N/\partial x$ | $Mdx + Ndy = 0$                     |
+| **2ª ordem linear homogênea** | Resolva equação característica                  | $y'' - 3y' + 2y = 0$                |
 | **Numéricas**                 | Euler, RK4, métodos implícitos                  | quando solução analítica não existe |
 
 ---
@@ -116,22 +116,13 @@ Quando não há solução analítica:
 
 ### 🌍 **Aplicações práticas**
 
-|Área|Exemplo|
-|---|---|
-|Física|Movimento: (m x'' = F(x, x'))|
-|Epidemiologia|Modelos SIR|
-|Economia|Crescimento e ciclos|
-|Engenharia|Circuitos RLC, controle|
-|Biologia|Dinâmica populacional|
-
----
-
-### 🚀 **Próximos tópicos sugeridos**
-
-- Demonstração de **Picard–Lindelöf**
-- Exemplo completo com **código Python (RK4 ou solve_ivp)**
-- **Sistemas de EDOs** e redução de ordem
-- **Estabilidade e análise qualitativa**
+| Área          | Exemplo                       |
+| ------------- | ----------------------------- |
+| Física        | Movimento: $m x'' = F(x, x')$ |
+| Epidemiologia | Modelos SIR                   |
+| Economia      | Crescimento e ciclos          |
+| Engenharia    | Circuitos RLC, controle       |
+| Biologia      | Dinâmica populacional         |
 
 ---
 
