@@ -40,12 +40,10 @@ Elas permitem **modelar, prever e entender** o comportamento dinâmico de sistem
 ### 🎯 **Problema de Valor Inicial (PVI)**
 
 Forma geral:  
-[  
-\begin{cases}  
+$$\begin{cases}  
 y' = f(x, y), \  
 y(x_0) = y_0  
-\end{cases}  
-]
+\end{cases}$$
 
 Um **PVI** busca a função (y(x)) que satisfaz a EDO e passa pelo ponto inicial ((x_0, y_0)).
 
@@ -54,74 +52,53 @@ Um **PVI** busca a função (y(x)) que satisfaz a EDO e passa pelo ponto inicial
 ### 🧠 **Teorema de Existência e Unicidade**
 
 **Intuição:**  
-Se (f(x, y)) for contínua e "comportada" perto de ((x_0, y_0)), então existe **uma única solução** local para o PVI.
+Se $f(x, y)$ for contínua e "comportada" perto de $(x_0, y_0)$, então existe **uma única solução** local para o PVI.
 
 **Versão curta:**  
-Se (f) e (\partial f / \partial y) forem contínuas numa vizinhança de ((x_0, y_0)), então existe (\varepsilon > 0) tal que há uma única solução (y(x)) em ((x_0 - \varepsilon, x_0 + \varepsilon)).
+Se $f$ e $\partial f / \partial y$ forem contínuas numa vizinhança de $(x_0, y_0)$, então existe $\varepsilon > 0$ tal que há uma única solução $y(x)$ em $(x_0 - \varepsilon, x_0 + \varepsilon)$.
 
 ---
 
 ### 🧮 **Métodos de Resolução**
 
-|Tipo|Ideia básica|Exemplo|
-|---|---|---|
-|**Separáveis**|Separe e integre|(y' = xy^2 → \frac{dy}{y^2} = xdx)|
-|**Linear 1ª ordem**|Fator integrante (\mu = e^{\int p(x)dx})|(y' - 2y = e^x)|
-|**Exatas**|(\partial M/\partial y = \partial N/\partial x)|(Mdx + Ndy = 0)|
-|**2ª ordem linear homogênea**|Resolva equação característica|(y'' - 3y' + 2y = 0)|
-|**Numéricas**|Euler, RK4, métodos implícitos|quando solução analítica não existe|
+| Tipo                          | Ideia básica                                    | Exemplo                             |
+| ----------------------------- | ----------------------------------------------- | ----------------------------------- |
+| **Separáveis**                | Separe e integre                                | (y' = xy^2 → \frac{dy}{y^2} = xdx)  |
+| **Linear 1ª ordem**           | Fator integrante $\mu = e^{\int p(x)dx}$        | (y' - 2y = e^x)                     |
+| **Exatas**                    | $\partial M/\partial y = \partial N/\partial x$ | (Mdx + Ndy = 0)                     |
+| **2ª ordem linear homogênea** | Resolva equação característica                  | (y'' - 3y' + 2y = 0)                |
+| **Numéricas**                 | Euler, RK4, métodos implícitos                  | quando solução analítica não existe |
 
 ---
 
 ### ✏️ **Exemplos resolvidos**
 
 **1️⃣ Separável**  
-[  
-y' = xy^2  
-]  
-[  
-\frac{dy}{y^2} = xdx  
-]  
-[  
--\frac{1}{y} = \frac{x^2}{2} + C \Rightarrow y(x) = -\frac{1}{\frac{x^2}{2} + C}  
-]
+$$y' = xy^2$$  
+$$\frac{dy}{y^2} = xdx$$ 
+$$-\frac{1}{y} = \frac{x^2}{2} + C \Rightarrow y(x) = -\frac{1}{\frac{x^2}{2} + C}$$
 
 ---
 
 **2️⃣ Linear de 1ª ordem**  
-[  
-y' - 2y = e^x  
-]  
-[  
-\mu = e^{-2x}, \quad \frac{d}{dx}(y e^{-2x}) = e^{-x}  
-]  
-[  
-y = -e^x + Ce^{2x}  
-]
+$$y' - 2y = e^x$$
+$$\mu = e^{-2x}, \quad \frac{d}{dx}(y e^{-2x}) = e^{-x}$$ 
+$$y = -e^x + Ce^{2x}$$
 
 ---
 
 **3️⃣ 2ª ordem com coeficientes constantes**  
-[  
-y'' - 3y' + 2y = 0  
-]  
-[  
-r^2 - 3r + 2 = 0 \Rightarrow (r - 1)(r - 2) = 0  
-]  
-[  
-y = C_1 e^x + C_2 e^{2x}  
-]
+$$y'' - 3y' + 2y = 0$$ 
+$$r^2 - 3r + 2 = 0 \Rightarrow (r - 1)(r - 2) = 0$$ 
+$$y = C_1 e^x + C_2 e^{2x}$$
 
 ---
 
 ### 💡 **Propriedades importantes**
 
 - A **superposição** só vale para EDOs **lineares homogêneas**.
-    
 - Soluções podem explodir em tempo finito (não existe solução global).
-    
 - Pequenas variações nos dados iniciais podem gerar grandes diferenças → sensibilidade (especialmente em não lineares).
-    
 
 ---
 
@@ -130,11 +107,8 @@ y = C_1 e^x + C_2 e^{2x}
 Quando não há solução analítica:
 
 - **Euler**: simples, mas impreciso.
-    
 - **Runge–Kutta (RK4)**: ótimo equilíbrio entre precisão e custo.
-    
 - **Métodos implícitos**: ideais para equações rígidas.
-    
 
 > 💬 _Use bibliotecas como `scipy.integrate.solve_ivp` (Python) para resolver EDOs numericamente._
 
@@ -155,21 +129,12 @@ Quando não há solução analítica:
 ### 🚀 **Próximos tópicos sugeridos**
 
 - Demonstração de **Picard–Lindelöf**
-    
 - Exemplo completo com **código Python (RK4 ou solve_ivp)**
-    
 - **Sistemas de EDOs** e redução de ordem
-    
 - **Estabilidade e análise qualitativa**
-    
 
 ---
 
 #### 🏷️ Tags
 
 `#matematica` `#EDO` `#diferenciais` `#modelagem`
-
----
-
-Quer que eu gere a **versão com blocos coloridos usando HTML/CSS inline** pra deixar ainda mais bonito no GitHub (tipo com bordas e cores)?  
-Posso fazer uma versão “quase-Adminotion” simulada com HTML.
