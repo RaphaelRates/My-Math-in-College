@@ -6,9 +6,7 @@
 
 > Uma **Equação Diferencial Ordinária (EDO)** é uma equação que relaciona uma função $y(x)$ com uma ou mais de suas derivadas em relação a **uma única** variável independente $x$.  
 > Exemplo:  
-> $$
-> y'(x) = f(x, y)  
-> $$
+> $$y'(x) = f(x, y)$$
 > 
 > Em palavras simples: ela descreve **como uma quantidade muda** ao longo do tempo (ou de outra variável), com base nessa própria quantidade.
 
