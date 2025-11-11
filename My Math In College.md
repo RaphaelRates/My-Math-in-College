@@ -31,25 +31,21 @@ O objetivo é **consolidar teoria + intuição + prática computacional**, crian
 ```
 
 My-Math-in-College/  
-├── Calculus/  
-│ ├── Calc1/  
-│ ├── Calc2/  
-│ ├── Calc3/  
-│ └── Calc4/  
+├── Cálculo 1/    
+├── Cálculo 2/ 
+├── Cálculo Vetorial/ 
+├── Cálculo Numérico/ 
 ├── Algebra/  
 │ ├── Algebra1/  
 │ ├── Algebra2/  
-│ └── Computational-Algebra/  
-├── Analysis/  
-│ ├── Analysis1/  
-│ └── Analysis2/  
-├── Differential-Equations/  
-│ ├── First-Order/  
-│ ├── Higher-Order/  
+│ └── Algebra Computacional/  
+├── Análise/  
+│ ├── Análise 1/  
+│ └── Análise 2/  
+├── EDO/  
+│ ├── Equações DIferenciais Ordinárias/   
 │ └── Numerical-Methods/  
 └── Complex-Variables/  
-├── Foundations/  
-└── Applications/
 
 ```
 
@@ -59,7 +55,7 @@ My-Math-in-College/
 
 ## 🧭 Objetivo do projeto
 
-- Criar uma **coleção unificada e reutilizável** de notas matemáticas.  
+- Criar uma **coleção unificada e reutilizável** de conhecimento sobre as aplicações computacionais que a matemática oferece.  
 - Manter uma **base de conhecimento versionada**, com histórico via **Git + GitHub**.  
 - Ajudar outros estudantes e curiosos que queiram **aprender matemática de forma estruturada e conectada à computação**.
 
@@ -67,32 +63,13 @@ My-Math-in-College/
 
 ## 🧠 Tecnologias e ferramentas usadas
 
-| Ferramenta | Uso |
-|-------------|-----|
-| 🪶 **Obsidian** | Organização das notas e links entre conceitos |
-| 🧰 **Adminotion Plugin** | Blocos visuais de aviso, definição, exemplo, etc. |
-| 🧠 **Markdown** | Linguagem de marcação principal |
-| ⚙️ **Git + GitHub** | Versionamento e backup automático |
-| 🧮 **LaTeX / MathJax** | Notação matemática renderizada |
-| 🧱 **Python (Jupyter snippets)** | Exemplos computacionais (álgebra e EDOs) |
-
----
-
-## 🔄 Automação e versionamento
-
-O vault é sincronizado automaticamente com GitHub usando o plugin **Obsidian Git**.  
-Cada commit contém informações completas sobre data, máquina e quantidade de arquivos alterados.
-
-Exemplo de commit:
-```
-
-🧩 My Math in College sync — main  
-📅 2025-11-11 17:40:22  
-👤 rapha@rapha-laptop  
-📁 Files changed (4): ["Calc2/Integrais.md", "EDO/Modelagem.md", "Complex/Residuos.md", "README.md"]  
-🔄 Context: automatic commit (Obsidian Git)
-
-````
+| Ferramenta                       | Uso                                               |
+| -------------------------------- | ------------------------------------------------- |
+| 🪶 **Obsidian**                  | Organização das notas e links entre conceitos     |
+| 🧰 **Adminotion Plugin**         | Blocos visuais de aviso, definição, exemplo, etc. |
+| 🧠 **Markdown**                  | Linguagem de marcação principal                   |
+| ⚙️ **Git + GitHub**              | Versionamento e backup automático                 |
+| 🧱 **Python (Jupyter snippets)** | Exemplos computacionais (álgebra e EDOs)          |
 
 ---
 
@@ -112,30 +89,8 @@ Exemplo de commit:
 > \(\frac{dy}{dx} = xy^2 \Rightarrow -\frac{1}{y} = \frac{x^2}{2} + C \Rightarrow y(x) = -\frac{1}{\frac{x^2}{2} + C}\)
 ````
 
+> Atenção: pode ter conteúdos que não possuem elementos do próprio obsidian para uma melhor compatibilidade com o Markdown no Github.
 ---
-
-## 🧩 Filosofia de estudo
-
-> _“Não é só resolver equações, é entender o que elas dizem sobre o mundo.”_
-> 
-> O repositório é mais do que anotações — é um **registro de aprendizado contínuo**.  
-> Cada nota tenta unir **formalismo rigoroso** com **intuição geométrica e computacional**, tornando o estudo mais vivo e menos mecânico.
-
----
-
-## 🧠 Próximos passos
-
--  Adicionar gráficos interativos com Python (Matplotlib / Sympy)
-    
--  Criar sumário automático de teoremas e definições
-    
--  Publicar versão estática do vault no GitHub Pages
-    
--  Integrar código de exemplos numéricos (Runge–Kutta, Newton, etc.)
-    
-
----
-
 ## 🧷 Tags
 
 `#matemática` `#cálculo` `#álgebra` `#análise` `#EDO` `#complexos` `#obsidian` `#markdown`
@@ -151,19 +106,10 @@ Sinta-se à vontade para **forkar, usar, remixar** ou contribuir.
 
 ### 💬 Autor
 
-**Rapha — Matemática Computacional @ UFCA**  
+**Raphael Sousa Rabelo rates — Matemática Computacional @ UFCA**  
 🧠 Apaixonado por IA, RPG e pelo lado abstrato (e bonito) da matemática.  
-📫 [GitHub](https://github.com/yourusername) • [Obsidian Vault Nerd](https://chatgpt.com/c/69139d4c-3770-8328-8512-7cd632e2569f#)
+📫 [GitHub](https://github.com/raphaelrates) 
 
 ---
 
 > _“Matemática não é um conjunto de fórmulas — é a arte de enxergar estruturas invisíveis.”_
-
----
-
-```
-
----
-
-Quer que eu te monte uma **versão “README + capa visual”** (com banner e badges tipo GitHub Actions, linguagem, commits etc.) pra deixar o repo mais apresentável publicamente?
-```
