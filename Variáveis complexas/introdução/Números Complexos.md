@@ -1,9 +1,7 @@
 > [!note] # Definição
 > O **Conjunto dos números coplexos**, denotado por $C$, é o conjunto onde:
 >
-> $$
-> \mathbb{C} = {, z \in \mathbb{C} \mid z = a + bi,\ a,b \in \mathbb{R} ,}  
-> $$
+> $$\mathbb{C} = {, z \in \mathbb{C} \mid z = a + bi,\ a,b \in \mathbb{R} ,}$$
 > Com $i^2 = -1$
 
 Elementos de $\mathbb{C}$ são chamados de números complexos e o símbolo $i$ é chamado de **Algarismo imaginário**
