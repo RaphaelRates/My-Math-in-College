@@ -1,6 +1,6 @@
 # 🧮 My Math in College
 
-> [!tip] Anotações matemáticas feitas com bastante esforço, suor e muito café ☕  
+> Anotações matemáticas feitas com bastante esforço, suor e muito café ☕  
 > Tudo escrito e organizado no **Obsidian**, cobrindo toda minha jornada na graduação de **Matemática Computacional (UFCA)** nas matérias de matemática
 
 ---
