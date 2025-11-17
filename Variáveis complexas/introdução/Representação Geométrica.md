@@ -195,4 +195,7 @@ Se quiser deixar ainda mais claro:
 > $$ = (z+w)(\overline{z}+\overline{w})$$
 > $$z\overline{z} + z\overline{w} + w\overline{z} + w\overline{w}$$
 > $$|z|^2 + z\overline{w} + w\overline{z} + |z|^2$$
-> Temos que $z\overline{w} + \overline{(z+ \overline{w})} = 2Re (z\overline{w})$ 
+> Temos que $z\overline{w} + \overline{(z+ \overline{w})} = 2Re (z\overline{w})$ , no qual é $\le 2 |z\overline{w}| = 2 |z| |w|$. Assim $|z+w|^2 \le |z|^2 + 2|z| |w| + |w|^2 = (|z|+|w|)^2$.
+> Portanto
+> $$|z+w| \le |z| + |w|$$
+> Para segunda parte. se $z = \lambda w$, onde $\lambda \ge 0$, então é imediato que vale a igualdade
