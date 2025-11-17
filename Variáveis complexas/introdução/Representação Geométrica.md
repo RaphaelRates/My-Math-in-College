@@ -126,47 +126,41 @@ Prova: $\overline z=a-ib = a+ib = z$ implica $b=0$, logo $z=a\in\mathbb{R}$. Se 
 
 ---
 
-**(iii)** (\overline z \in \mathbb{R} \iff z\in\mathbb{R}.)
+**(iii)** $\overline z \in \mathbb{R} \iff z\in\mathbb{R}$
 
-Prova: (\overline z=a-ib) é real (\iff) sua parte imaginária é zero (\iff -b=0\iff b=0). Assim (z=a\in\mathbb{R}). □
-
----
-
-**(iv)** “(\overline z) é imaginário puro” equivale a “(z) é imaginário puro”, e isso se escreve ( \Re(z)=0 \iff z=-\overline z.)
-
-Prova: se (z) é imaginário puro então (a=0) e (z=ib). Então (\overline z=-ib=-z). Recíproco similar: (\overline z=-z) dá (a-ib=-(a+ib)=-a-ib) ⇒ (a=-a) ⇒ (a=0). □
-
-_(observação: a equivalência correta é (\overline z) é puro-imaginário (\iff) (z) é puro-imaginário, e algebraicamente isso é (z=-\overline z))._
+Prova: $\overline z=a-ib$ é real $\iff$ sua parte imaginária é zero $\iff -b=0\iff b=0$. Assim $z=a\in\mathbb{R}$. 
 
 ---
 
-**(v)** (\overline{z+w}=\overline z+\overline w) e (\overline{z-w}=\overline z-\overline w.)
+**(iv)** “$\overline z$ é imaginário puro” equivale a “$z$ é imaginário puro”, e isso se escreve $\Re(z)=0 \iff z=-\overline z$
 
-Prova: (z+w=(a+c)+i(b+d)) então (\overline{z+w}=(a+c)-i(b+d)=(a-ib)+(c-id)=\overline z+\overline w). Subtração análoga. □
+Prova: se $z$ é imaginário puro então $a=0$ e $z=ib$. Então $\overline z=-ib=-z$. Recíproco similar: $\overline z=-z$ dá $a-ib=-(a+ib)=-a-ib$ ⇒ $a=-a$ ⇒ $a=0$. □
+
+_(observação: a equivalência correta é $\overline z$ é puro-imaginário $\iff$ $z$ é puro-imaginário, e algebraicamente isso é $z=-\overline z$)._
 
 ---
 
-**(vi)** (\overline{z\cdot w}=\overline z\cdot\overline w.)
+**(v)** $\overline{z+w}=\overline z+\overline w$ e $\overline{z-w}=\overline z-\overline w$
 
-Prova: (zw=(a+ib)(c+id)=(ac-bd)+i(ad+bc)). Então  
-[  
-\overline{zw}=(ac-bd)-i(ad+bc).  
-]  
+Prova: $z+w=(a+c)+i(b+d)$ então $\overline{z+w}=(a+c)-i(b+d)=(a-ib)+(c-id)=\overline z+\overline w$. Subtração análoga. □
+
+---
+
+**(vi)** $\overline{z\cdot w}=\overline z\cdot\overline w$
+
+Prova: $zw=(a+ib)(c+id)=(ac-bd)+i(ad+bc)$. Então  
+$$\overline{zw}=(ac-bd)-i(ad+bc)$$ 
 Por outro lado  
-[  
-\overline z\cdot\overline w=(a-ib)(c-id)=(ac-bd)-i(ad+bc).  
-]  
-Logo são iguais. □
+$$\overline z\cdot\overline w=(a-ib)(c-id)=(ac-bd)-i(ad+bc)$$ 
+Logo são iguais. 
 
 ---
 
-**(vii)** Se (w\neq0), então (\displaystyle \overline{\frac{z}{w}}=\frac{\overline z}{\overline w}.)
+**(vii)** Se $w\neq0$, então $\displaystyle \overline{\frac{z}{w}}=\frac{\overline z}{\overline w}$
 
-Prova: escreva (\dfrac{z}{w}=z\cdot w^{-1}). Da propriedade (vi),  
-[  
-\overline{\frac{z}{w}}=\overline{z\cdot w^{-1}}=\overline z\cdot\overline{w^{-1}}.  
-]  
-Mas (\overline{w^{-1}}=(\overline w)^{-1}) porque ((\overline w)(\overline{w^{-1}})=\overline{w w^{-1}}=\overline{1}=1). Assim (\overline{\frac{z}{w}}=\overline z/ \overline w). □
+Prova: escreva $\dfrac{z}{w}=z\cdot w^{-1}$. Da propriedade (vi),  
+$$\overline{\frac{z}{w}}=\overline{z\cdot w^{-1}}=\overline z\cdot\overline{w^{-1}}$$ 
+Mas $\overline{w^{-1}}=(\overline w)^{-1}$ porque $(\overline w)(\overline{w^{-1}})=\overline{w w^{-1}}=\overline{1}=1$. Assim $\overline{\frac{z}{w}}=\overline z/ \overline w$. 
 
 ---
 
@@ -177,5 +171,15 @@ E $z-\overline z=(a+ib)-(a-ib)=2ib\Rightarrow (z-\overline z)/(2i)=b=\Im z$. □
 
 
 ### Módulo (norma/valor absoluto)
- de $z = a + bi$ é o número real $$\mod{z} = \sqrt{a^2 + b^2}$$
+ de $z = a + bi$ é o número real tal que:
+
+$$|z|=\sqrt{a^{2}+b^{2}} \ge \sqrt{a^{2}} = |a|$$
+
+Se quiser deixar ainda mais claro:
+
+- $z = a + bi$
+- $|z| = \sqrt{a^2 + b^2}$
+- Como $b^2 \ge 0$, então $a^2 + b^2 \ge a^2$
+- Tirando a raiz dos dois lados: $|z| \ge |a|$.
  
+![[Pasted image 20251117105447.png]]
