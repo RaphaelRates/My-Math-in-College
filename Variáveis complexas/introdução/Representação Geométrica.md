@@ -194,4 +194,5 @@ Se quiser deixar ainda mais claro:
 > $$|z+w|^2 = (z+w) \overline{(z+w)}$$
 > $$ = (z+w)(\overline{z}+\overline{w})$$
 > $$z\overline{z} + z\overline{w} + w\overline{z} + w\overline{w}$$
-> $$|z|^2 + z\overline{w} + z\overline{w} + w\overline{z} + |z|^2$$
+> $$|z|^2 + z\overline{w} + w\overline{z} + |z|^2$$
+> Temos que $z\overline{w} + \overline{(z+ \overline{w})} = 2Re (z\overline{w})$ 
