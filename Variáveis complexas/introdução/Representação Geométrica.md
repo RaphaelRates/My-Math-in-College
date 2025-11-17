@@ -182,3 +182,16 @@ Se quiser deixar ainda mais claro:
 - Como $b^2 \ge 0$, então $a^2 + b^2 \ge a^2$
 - Tirando a raiz dos dois lados: $|z| \ge |a|$.
   ![[Pasted image 20251117105844.png]]
+
+### Desigualdade Triangular
+
+> Para quaisquer $z$z $w \in \mathbb{C}$, temos $$|z + w| \le |z|+ |w|$$ com igualdade valendo se, e somente se, um dos números é múltiplo escalar não negativo do outro
+
+![[Pasted image 20251117125445.png]]
+
+#### Prova
+> Para quaisquer  $z$, $w \in \mathbb{C}$, temos:
+> $$|z+w|^2 = (z+w) \overline{(z+w)}$$
+> $$ = (z+w)(\overline{z}+\overline{w})$$
+> $$z\overline{z} + z\overline{w} + w\overline{z} + w\overline{w}$$
+> $$|z|^2 + z\overline{w} + z\overline{w} + w\overline{z} + |z|^2$$
