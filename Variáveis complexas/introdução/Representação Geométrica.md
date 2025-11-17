@@ -107,8 +107,74 @@ $(vi)$ = $\overline{z \cdot w} = \overline{z} \cdot \overline{w}$
 $(vii)\quad \overline{\frac{z}{w}} = \frac{\overline{z}}{\overline{w}}, \quad \text{se } w \neq 0$
 $(viii) = Re z = (z + \overline{z})/ 2$ e $Im(z) = z - \overline{z}/2i$
 
+![[Pasted image 20251117102533.png]]
 #### Prova
-Exercício
+
+Vamos provar cada item direto ao ponto. Use $z=a+ib$ e $w=c+id$ com $$a,b,c,d\in\mathbb{R}$$
+
+---
+
+**(i)** $\overline z=0 \iff z=0.$
+
+Prova: $\overline z=a-ib=0$ implica $a=0$ e $-b=0\Rightarrow b=0$. Então $z=a+ib=0$. Recíproco trivial. □
+
+---
+
+**(ii)** $\overline z = z \iff z\in\mathbb{R}.$
+
+Prova: $\overline z=a-ib = a+ib = z$ implica $b=0$, logo $z=a\in\mathbb{R}$. Se $z\in\mathbb{R}$ então $b=0$ e $\overline z=z$. □
+
+---
+
+**(iii)** (\overline z \in \mathbb{R} \iff z\in\mathbb{R}.)
+
+Prova: (\overline z=a-ib) é real (\iff) sua parte imaginária é zero (\iff -b=0\iff b=0). Assim (z=a\in\mathbb{R}). □
+
+---
+
+**(iv)** “(\overline z) é imaginário puro” equivale a “(z) é imaginário puro”, e isso se escreve ( \Re(z)=0 \iff z=-\overline z.)
+
+Prova: se (z) é imaginário puro então (a=0) e (z=ib). Então (\overline z=-ib=-z). Recíproco similar: (\overline z=-z) dá (a-ib=-(a+ib)=-a-ib) ⇒ (a=-a) ⇒ (a=0). □
+
+_(observação: a equivalência correta é (\overline z) é puro-imaginário (\iff) (z) é puro-imaginário, e algebraicamente isso é (z=-\overline z))._
+
+---
+
+**(v)** (\overline{z+w}=\overline z+\overline w) e (\overline{z-w}=\overline z-\overline w.)
+
+Prova: (z+w=(a+c)+i(b+d)) então (\overline{z+w}=(a+c)-i(b+d)=(a-ib)+(c-id)=\overline z+\overline w). Subtração análoga. □
+
+---
+
+**(vi)** (\overline{z\cdot w}=\overline z\cdot\overline w.)
+
+Prova: (zw=(a+ib)(c+id)=(ac-bd)+i(ad+bc)). Então  
+[  
+\overline{zw}=(ac-bd)-i(ad+bc).  
+]  
+Por outro lado  
+[  
+\overline z\cdot\overline w=(a-ib)(c-id)=(ac-bd)-i(ad+bc).  
+]  
+Logo são iguais. □
+
+---
+
+**(vii)** Se (w\neq0), então (\displaystyle \overline{\frac{z}{w}}=\frac{\overline z}{\overline w}.)
+
+Prova: escreva (\dfrac{z}{w}=z\cdot w^{-1}). Da propriedade (vi),  
+[  
+\overline{\frac{z}{w}}=\overline{z\cdot w^{-1}}=\overline z\cdot\overline{w^{-1}}.  
+]  
+Mas (\overline{w^{-1}}=(\overline w)^{-1}) porque ((\overline w)(\overline{w^{-1}})=\overline{w w^{-1}}=\overline{1}=1). Assim (\overline{\frac{z}{w}}=\overline z/ \overline w). □
+
+---
+
+**(viii)** $$\displaystyle \Re z=\frac{z+\overline z}{2},\qquad \Im z=\frac{z-\overline z}{2i}$$
+
+Prova: $z+\overline z=(a+ib)+(a-ib)=2a\Rightarrow (z+\overline z)/2=a=\Re z)$  
+E $z-\overline z=(a+ib)-(a-ib)=2ib\Rightarrow (z-\overline z)/(2i)=b=\Im z$. □
+
 
 ### Módulo (norma/valor absoluto)
  de $z = a + bi$ é o número real $$\mod{z} = \sqrt{a^2 + b^2}$$
