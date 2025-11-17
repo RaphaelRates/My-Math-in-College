@@ -169,7 +169,7 @@ Mas $\overline{w^{-1}}=(\overline w)^{-1}$ porque $(\overline w)(\overline{w^{-1
 Prova: $z+\overline z=(a+ib)+(a-ib)=2a\Rightarrow (z+\overline z)/2=a=\Re z)$  
 E $z-\overline z=(a+ib)-(a-ib)=2ib\Rightarrow (z-\overline z)/(2i)=b=\Im z$. □
 
-
+![[Pasted image 20251117105447.png]]
 ### Módulo (norma/valor absoluto)
  de $z = a + bi$ é o número real tal que:
 
@@ -181,5 +181,4 @@ Se quiser deixar ainda mais claro:
 - $|z| = \sqrt{a^2 + b^2}$
 - Como $b^2 \ge 0$, então $a^2 + b^2 \ge a^2$
 - Tirando a raiz dos dois lados: $|z| \ge |a|$.
- 
-![[Pasted image 20251117105447.png]]
+  ![[Pasted image 20251117105844.png]]
