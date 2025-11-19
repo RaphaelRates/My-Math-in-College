@@ -214,3 +214,33 @@ Se quiser deixar ainda mais claro:
 1. Para o sinal (+):  $$|z| = |(z+w)-w| \le |z+w| + |w|$$Reorganizando,  $$|z+w| \ge |z| - |w|$$
 2. Para o sinal (-):  $$|z| = |(z-w)+w| \le |z-w| + |w|$$Reorganizando,  $$|z-w| \ge |z| - |w|$$
 Ambos os casos demonstram a afirmação $|z\pm w|\ge |z|-|w|$. 
+### ✔️ Continuação da prova (no mesmo estilo do quadro)
+
+Você já tem:
+$$|z+w|^2 = |z|^2 + \overline{z}w + z\overline{w} + |w|^2$$
+E também já mostrou:
+$$
+\overline{z}w + z\overline{w}  
+= 2\Re(\overline{z}w)  
+\le 2|\overline{z}w|  
+= 2|z||w|$$
+Agora é só juntar as duas coisas:$$
+|z+w|^2  
+= |z|^2 + |w|^2 + (\overline{z}w + z\overline{w})  
+\le |z|^2 + |w|^2 + 2|z||w|$$
+O lado direito vira um quadrado perfeito:$$
+|z+w|^2 \le (|z| + |w|)^2$$
+Agora tira a raiz dos dois lados (ambos ≥ 0):
+$$|z+w| \le |z| + |w|$$
+Esta é a **desigualdade triangular**.
+
+---
+
+Para chegar no corolário que você queria:$$
+|z+w| \ge |z| - |w|$$É só rearranjar a desigualdade triangular:$$
+|z| = |(z+w) - w|  
+\le |z+w| + |w|,  
+$$logo:$$
+|z+w| \ge |z| - |w|.  
+$$
+Mesma linha de raciocínio.
