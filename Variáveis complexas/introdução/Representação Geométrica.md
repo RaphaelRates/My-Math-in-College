@@ -198,4 +198,19 @@ Se quiser deixar ainda mais claro:
 > Temos que $z\overline{w} + \overline{(z+ \overline{w})} = 2Re (z\overline{w})$ , no qual é $\le 2 |z\overline{w}| = 2 |z| |w|$. Assim $|z+w|^2 \le |z|^2 + 2|z| |w| + |w|^2 = (|z|+|w|)^2$.
 > Portanto
 > $$|z+w| \le |z| + |w|$$
-> Para segunda parte. se $z = \lambda w$, onde $\lambda \ge 0$, então é imediato que vale a igualdade
+> Para segunda parte. se $z = \lambda w$, onde $\lambda \ge 0$, então é imediato que vale a igualdade. Por outro lado, se $w = 0$, então $w = 0 \cdot z$ e vale a igualdade. Suponhamos que $w \neq 0$. Se vale a igualdade, então $$Re(z\overline{w}) = |z\overline{w}|$$
+> $$\iff Re(z\overline{w}) = \sqrt{Re(z\overline{w})^2 + Im(z\overline{w})^2}$$
+> $$ \iff Im(z\overline{w}) = 0 \text{ e } Re(z\overline{w}) \ge 0$$
+> $$\iff z\overline{w} = \lambda \text{ , onde } \lambda = Re(z\overline{w}) \ge 0$$
+> $$\iff z\overline{w} \cdot w = \lambda \cdot w \text{ , onde } \lambda \ge 0$$
+> $$ \iff z \cdot |w|^2 = \lambda \cdot w \text{ , } \lambda \ge 0$$ $$z = \frac{\lambda}{|w|^2} \cdot w \text{ , } \lambda \ge 0$$
+>  $$z = M \cdot w \text{ , onde } M = \frac{\lambda}{|w|^2} \ge 0 $$
+
+### Corolário
+ Para quaisquer $z \text{ , } w \in \mathbb{C}$, temos:$$|z \pm w| \ge |z| - |w|$$
+#### Prova
+ Usamos a desigualdade triangular clássica $|u+v|\le |u|+|v|$.
+
+1. Para o sinal (+):  $$|z| = |(z+w)-w| \le |z+w| + |w|$$Reorganizando,  $$|z+w| \ge |z| - |w|$$
+2. Para o sinal (-):  $$|z| = |(z-w)+w| \le |z-w| + |w|$$Reorganizando,  $$|z-w| \ge |z| - |w|$$
+Ambos os casos demonstram a afirmação $|z\pm w|\ge |z|-|w|$. 
