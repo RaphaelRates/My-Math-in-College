@@ -15,5 +15,5 @@
 > #### Solução
 > 
 > 1. $(-4i)^3 = (-4)^3 \cdot (i)^3 = -64^3 \cdot i^3 = 64i$
-> 2. continua no próximo episósio
+> 2. $2 \cdot \sqrt{3} + 2i = 4 \cdot (\cos{\frac{\pi}{6}} + i \cdot \sin{\frac{\pi}{6}})$ e $-2 \cdot \sqrt{3} + 2i = 4 \cdot (\cos{\frac{5 \cdot \pi}{6}} + i \cdot \sin{\frac{5 \cdot \pi}{6}})$
 
