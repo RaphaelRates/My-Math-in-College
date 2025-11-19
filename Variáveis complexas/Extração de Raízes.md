@@ -38,4 +38,8 @@ $$Z_k ;=; \sqrt[n]{|z|},\bigg(\cos!\left(\frac{\theta + 2\pi k}{n}\right)
 ;+; i,\sin!\left(\frac{\theta + 2\pi k}{n}\right)\bigg),  
 \qquad k = 0,1,\dots,n-1,$$
 
-onde $z = |z|(\cos\theta + i\sin\theta)$ é a forma polar de $z$.
+onde $\theta = Arg(z)$ 
+
+#### Prova
+Sejam $n \ge 2$$ e $\theta = Arg(z)$ onde $z \neq 0$, Então
+$$z = |z|(\cos\theta + i\sin\theta)$$é a forma polar de $z$.
