@@ -76,3 +76,54 @@ $l = [0,1,...,n -1]$
 A raiz $n$-ésima $z_o$ é chamada a **raiz $n$-ésima principal** e será denotada por $\sqrt[n]{z}$ 
 Assim, $$ \sqrt[n]{z}  = \sqrt[n]{|z|} \cdot [\cos{\frac{Arg(z) \cdot z}{n}} + i \cdot \sin{\frac{Arg(z) \cdot z}{n}}] $$
 Convencionamos que $\sqrt[n]{0} = 0$ e $\sqrt{z} = \sqrt[2]{z}$ 
+
+Vou transcrever a imagem trocando `\[` por `$$` e `\(` por `$`:
+
+---
+
+**Ex.**: Chique au rafier côteur de $ z = 27 $ d.
+
+Sel : Temes
+
+$$
+z = 27 \quad e \quad 0 + \log z = \frac{1}{2}
+$$
+
+Logo : $z = 27$ (cas $\frac{\pi}{3} + \lambda \sin \frac{\pi}{3}$)
+
+Assim, as rafiers côteurs se
+
+$$
+z = \sqrt[3]{27} \left[ \cos \left( \frac{\pi}{3} + 2\lambda \right) + \lambda \sin \left( \frac{\pi}{3} + 2\lambda \right) \right]
+$$
+
+$$
+\lambda = 0.4
+$$
+
+$$
+z = 4
+$$
+
+$$
+z_0 = \sqrt[3]{27} \left( \cos \frac{\pi}{6} + \lambda \sin \frac{\pi}{6} \right)
+$$
+$$
+= 3 \left( \frac{\sqrt{5}}{2} + \lambda \frac{\sqrt{5}}{2} \right) = \frac{3\sqrt{5}}{2} + \lambda \frac{2}{2}
+$$
+
+$$
+z_1 = \sqrt[3]{27} \left( \cos \frac{5\pi}{6} + \lambda \sin \frac{5\pi}{6} \right)
+$$
+$$
+= 3 \left( -\frac{\sqrt{5}}{2} + \lambda \frac{\sqrt{5}}{2} \right) = -\frac{3\sqrt{5}}{2} + \frac{2}{2}\lambda
+$$
+
+$$
+z_2 = \sqrt[3]{27} \left( \cos \frac{7\pi}{2} + \lambda \sin \frac{7\pi}{2} \right)
+$$
+$$
+= 3 \left( 0 + \lambda \cdot 64 \right) = -3\lambda
+$$
+
+---
