@@ -42,4 +42,16 @@ onde $\theta = Arg(z)$
 
 #### Prova
 Sejam $n \ge 2$$ e $\theta = Arg(z)$ onde $z \neq 0$, Então
-$$z = |z|(\cos\theta + i\sin\theta)$$é a forma polar de $z$.
+$$z = |z|(\cos\theta + i\sin\theta)$$
+Para $$w \ge |w| \cdot (\cos{\phi} + i \cdot \sin{n \phi})$$
+Partindo de $w^n = z$:
+
+$$w^n = z  
+;;\Longleftrightarrow;;  
+|w|^n \big(\cos(n\psi) + i\sin(n\psi)\big)$$
+$$|z|\big(\cos\theta + i\sin\theta\big)$$
+$$\Longleftrightarrow;;  
+|w|^n = |z|  
+\quad\text{e}\quad  
+n\psi = \theta + 2k\pi,  
+;\text{ para algum } k \in \mathbb{Z}$$
