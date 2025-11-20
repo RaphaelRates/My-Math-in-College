@@ -107,7 +107,7 @@ Se quiser deixar bonito:
 > Resolva: $\frac{dy}{dt} = ky$, onde $k$ é constante (modelo de crescimento populacional)
 
 **Solução:**
-```math
+$$
 \begin{align*}
 \frac{dy}{dt} &= ky \\
 \frac{dy}{y} &= k\,dt \\
@@ -116,7 +116,7 @@ Se quiser deixar bonito:
 y &= e^{kt + C} = e^{C}\cdot e^{kt} \\
 y &= A e^{kt} \quad \text{onde } A = e^{C}
 \end{align*}
-```
+$$
 
 ### Exemplo 2: Equação Não-Linear
 
@@ -124,7 +124,7 @@ y &= A e^{kt} \quad \text{onde } A = e^{C}
 > Resolva: $\frac{dy}{dx} = x \cdot y^2$
 
 **Solução:**
-```math
+$$
 \begin{align*}
 \frac{dy}{dx} &= x \cdot y^{2} \\
 \frac{dy}{y^{2}} &= x\,dx \\
@@ -134,7 +134,7 @@ y &= A e^{kt} \quad \text{onde } A = e^{C}
 \frac{1}{y} &= -\frac{1}{2}x^{2} - C \\
 y &= \frac{1}{C' - \frac{1}{2}x^{2}} \quad \text{onde } C' = -C
 \end{align*}
-```
+$$
 
 ### Exemplo 3: Equação com Raiz Quadrada
 
@@ -142,7 +142,7 @@ y &= \frac{1}{C' - \frac{1}{2}x^{2}} \quad \text{onde } C' = -C
 > Resolva: $\frac{dy}{dx} = x \cdot y^3 (1 + x^2)^{-\frac{1}{2}}$
 
 **Solução:**
-```math
+$$
 \begin{align*}
 \frac{dy}{dx} &= \frac{x \cdot y^3}{\sqrt{1 + x^2}} \\
 y^{-3} \frac{dy}{dx} &= \frac{x}{\sqrt{1 + x^2}} \\
@@ -152,7 +152,7 @@ y^{-3} \frac{dy}{dx} &= \frac{x}{\sqrt{1 + x^2}} \\
 \frac{1}{y^2} &= -2\sqrt{1 + x^2} - 2C \\
 y^2 &= \frac{1}{C_1 - 2\sqrt{1 + x^2}} \quad \text{onde } C_1 = -2C
 \end{align*}
-```
+$$
 
 ### Exemplo 4: Equação Trigonométrica
 
@@ -160,7 +160,7 @@ y^2 &= \frac{1}{C_1 - 2\sqrt{1 + x^2}} \quad \text{onde } C_1 = -2C
 > Resolva: $\frac{dy}{dx} = \sin x \cdot \cos y$
 
 **Solução:**
-```math
+$$
 \begin{align*}
 \frac{dy}{dx} &= \sin x \cdot \cos y \\
 \frac{dy}{\cos y} &= \sin x\,dx \\
@@ -168,7 +168,7 @@ y^2 &= \frac{1}{C_1 - 2\sqrt{1 + x^2}} \quad \text{onde } C_1 = -2C
 \ln|\sec y + \tan y| &= -\cos x + C \\
 \sec y + \tan y &= Ae^{-\cos x} \quad \text{onde } A = e^{C}
 \end{align*}
-```
+$$
 
 ### Exemplo 5: Equação com Condição Inicial
 
@@ -176,7 +176,7 @@ y^2 &= \frac{1}{C_1 - 2\sqrt{1 + x^2}} \quad \text{onde } C_1 = -2C
 > Resolva: $\frac{dy}{dx} = 2xy$ com $y(0) = 3$
 
 **Solução:**
-```math
+$$
 \begin{align*}
 \frac{dy}{dx} &= 2xy \\
 \frac{dy}{y} &= 2x\,dx \\
@@ -184,14 +184,15 @@ y^2 &= \frac{1}{C_1 - 2\sqrt{1 + x^2}} \quad \text{onde } C_1 = -2C
 \ln|y| &= x^2 + C \\
 y &= Ae^{x^2} \quad \text{onde } A = e^{C}
 \end{align*}
-```
+$$
+
 **Aplicando a condição inicial:**
-```math
+$$
 \begin{align*}
 y(0) &= Ae^{0} = 3 \Rightarrow A = 3 \\
 y &= 3e^{x^2}
 \end{align*}
-```
+$$
 
 ### Exemplo 6: Equação Logística
 
@@ -199,15 +200,16 @@ y &= 3e^{x^2}
 > Resolva: $\frac{dP}{dt} = kP\left(1 - \frac{P}{M}\right)$ (Modelo de Verhulst)
 
 **Solução:**
-```math
+$$
 \begin{align*}
 \frac{dP}{dt} &= kP\left(1 - \frac{P}{M}\right) \\
 \frac{dP}{P\left(1 - \frac{P}{M}\right)} &= k\,dt \\
 \int \frac{dP}{P\left(1 - \frac{P}{M}\right)} &= \int k\,dt
 \end{align*}
-```
+$$
+
 **Usando frações parciais:**
-```math
+$$
 \begin{align*}
 \frac{1}{P\left(1 - \frac{P}{M}\right)} &= \frac{1}{P} + \frac{1}{M - P} \\
 \int \left(\frac{1}{P} + \frac{1}{M - P}\right) dP &= \int k\,dt \\
@@ -216,9 +218,86 @@ y &= 3e^{x^2}
 \frac{P}{M - P} &= Ae^{kt} \quad \text{onde } A = e^{C} \\
 P &= \frac{MAe^{kt}}{1 + Ae^{kt}} = \frac{M}{1 + Be^{-kt}} \quad \text{onde } B = \frac{1}{A}
 \end{align*}
-```
+$$
 
----
+### Exemplo 7: Equação com Exponencial
+
+> [!EXAMPLE]
+> Resolva: $\frac{dy}{dx} = e^{x-y}$
+
+**Solução:**
+$$
+\begin{align*}
+\frac{dy}{dx} &= e^{x-y} = e^x \cdot e^{-y} \\
+e^y\,dy &= e^x\,dx \\
+\int e^y\,dy &= \int e^x\,dx \\
+e^y &= e^x + C \\
+y &= \ln|e^x + C|
+\end{align*}
+$$
+
+### Exemplo 8: Equação Homogênea
+
+> [!EXAMPLE]
+> Resolva: $\frac{dy}{dx} = \frac{x + y}{x}$
+
+**Solução:**
+$$
+\begin{align*}
+\frac{dy}{dx} &= \frac{x + y}{x} = 1 + \frac{y}{x} \\
+\text{Substituição: } v &= \frac{y}{x} \Rightarrow y = vx \Rightarrow \frac{dy}{dx} = v + x\frac{dv}{dx} \\
+v + x\frac{dv}{dx} &= 1 + v \\
+x\frac{dv}{dx} &= 1 \\
+dv &= \frac{dx}{x} \\
+\int dv &= \int \frac{dx}{x} \\
+v &= \ln|x| + C \\
+\frac{y}{x} &= \ln|x| + C \\
+y &= x\ln|x| + Cx
+\end{align*}
+$$
+
+### Exemplo 9: Equação com Arco Tangente
+
+> [!EXAMPLE]
+> Resolva: $\frac{dy}{dx} = \frac{1}{1 + x^2} \cdot \frac{1}{1 + y^2}$
+
+**Solução:**
+$$
+\begin{align*}
+\frac{dy}{dx} &= \frac{1}{(1 + x^2)(1 + y^2)} \\
+(1 + y^2)\,dy &= \frac{dx}{1 + x^2} \\
+\int (1 + y^2)\,dy &= \int \frac{dx}{1 + x^2} \\
+y + \frac{y^3}{3} &= \arctan x + C
+\end{align*}
+$$
+
+### Exemplo 10: Problema de Mistura
+
+> [!EXAMPLE] Aplicação Física
+> Um tanque contém 100 litros de água com 5 kg de sal. Água salgada com 0.1 kg/L é adicionada a 2 L/min e a mistura é drenada a 2 L/min. Encontre a quantidade de sal no tanque no tempo $t$.
+
+**Solução:**
+$$
+\begin{align*}
+\frac{dS}{dt} &= \text{taxa de entrada} - \text{taxa de saída} \\
+&= (0.1)(2) - \left(\frac{S}{100}\right)(2) \\
+\frac{dS}{dt} &= 0.2 - 0.02S \\
+\frac{dS}{0.2 - 0.02S} &= dt \\
+\int \frac{dS}{0.2 - 0.02S} &= \int dt \\
+-50\ln|0.2 - 0.02S| &= t + C \\
+\ln|0.2 - 0.02S| &= -0.02t + C' \\
+0.2 - 0.02S &= Ae^{-0.02t} \\
+S &= 10 - 50Ae^{-0.02t}
+\end{align*}
+$$
+
+**Com condição inicial $S(0) = 5$:**
+$$
+\begin{align*}
+5 &= 10 - 50A \Rightarrow A = 0.1 \\
+S(t) &= 10 - 5e^{-0.02t}
+\end{align*}
+$$
 
 ## 💻 Aplicações Práticas
 
