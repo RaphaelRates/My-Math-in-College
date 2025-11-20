@@ -63,3 +63,16 @@ n\psi = \theta + 2k\pi,
 > $z_k ;=; \sqrt[n]{|z|} \leftarrow \cos!\left(\frac{\theta + 2k\pi}{n}\right) +  i\sin!\left(\frac{\theta + 2k\pi}{n}\right) \rightarrow,  \qquad k \in \mathbb{Z}$ 
 > Como apenas $n$ valores distintos surgem, basta considerar $k = 0,1,\dots,n-1$.
 
+Agora dados $r$, $s \in \mathbb{Z}$, temos. $$z_1 = z_r \iff \frac{\theta + 2 \cdot s \cdot \pi}{n} = \frac{\theta + 2 \cdot r \cdot \pi}{n} + 2 \cdot K \cdot \pi$$
+Para algum $K \in \mathbb{Z}$ $$ \iff \theta + 2 \cdot \pi = \cdot + 2 \cdot r \cdot \pi + 2 \cdot K \cdot \pi \cdot n$$$$S = r + K \cdot n$$ para algum $K \in \mathbb{Z}$ Como qualquer inteiro $s$ pode ser escrito de uma forma, e somente uma das formas.  
+$S = 0 + k \cdot n$
+$S = 1 + k \cdot n$
+$S = 2 + \cdot n$
+$S = (n-1) + K \cdot n$ 
+
+onde $k \in \mathbb{Z}$, concluímos que há exatamente $n$ raízes $n$-ésimas distintas, que são dadas por $$z_1 = \sqrt[n]{|z|} \cdot [\cos{\frac{\theta + 2 \cdot l \cdot \pi}{n}} + i \cdot \sin{\frac{\theta + 2 \cdot l \cdot \pi}{n}}] $$
+$l = [0,1,...,n -1]$
+
+A raiz $n$-ésima $z_o$ é chamada a **raiz $n$-ésima principal** e será denotada por $\sqrt[n]{z}$ 
+Assim, $$ \sqrt[n]{z}  = \sqrt[n]{|z|} \cdot [\cos{\frac{Arg(z) \cdot z}{n}} + i \cdot \sin{\frac{Arg(z) \cdot z}{n}}] $$
+Convencionamos que $\sqrt[n]{0} = 0$ e $\sqrt{z} = \sqrt[2]{z}$ 
