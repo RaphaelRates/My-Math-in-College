@@ -49,9 +49,17 @@ Partindo de $w^n = z$:
 $$w^n = z  
 ;;\Longleftrightarrow;;  
 |w|^n \big(\cos(n\psi) + i\sin(n\psi)\big)$$
-$$|z|\big(\cos\theta + i\sin\theta\big)$$
+$$ = |z|\big(\cos\theta + i\sin\theta\big)$$
 $$\Longleftrightarrow;;  
 |w|^n = |z|  
 \quad\text{e}\quad  
 n\psi = \theta + 2k\pi,  
 ;\text{ para algum } k \in \mathbb{Z}$$
+
+> [!theorem] Raízes (n)-ésimas de um número complexo
+> 
+> Seja $z = |z|(\cos\theta + i\sin\theta)$ um número complexo não nulo.  
+> Para cada inteiro positivo $n$, as raízes $n$-ésimas de $z$ são exatamente os números  
+> $z_k ;=; \sqrt[n]{|z|} \leftarrow \cos!\left(\frac{\theta + 2k\pi}{n}\right) +  i\sin!\left(\frac{\theta + 2k\pi}{n}\right) \rightarrow,  \qquad k \in \mathbb{Z}$ 
+> Como apenas $n$ valores distintos surgem, basta considerar $k = 0,1,\dots,n-1$.
+
