@@ -3,6 +3,8 @@
 > Uma EDO da forma $M(x, y)dx + N(x, y)dy = 0$ é **exata** se existe uma função $F(x, y)$ tal que:
 > $$\frac{\partial F}{\partial x} = M(x, y) \quad \text{e} \quad \frac{\partial F}{\partial y} = N(x, y)$$
 > A solução geral é dada implicitamente por $F(x, y) = C$.
+> Um exemplo seria a função $x^2 + y^2 = K$
+> Manipulando tem que $$f(x,y) = x^2 + y^2 - k = 0$$
 
 ## 📋 Condição de Exatidão
 
