@@ -1,6 +1,6 @@
 ### Representação Geométrica dos Números Complexos
 
-A ideia de representar o número complexo $z = a + bi$ como o ponto $(a, b)$ no plano cartesiano é o conceito fundamental do **Plano Complexo** (também conhecido como **Plano de Argand-Gauss**).
+ A ideia de representar o número complexo $z = a + bi$ como o ponto $(a, b)$ no plano cartesiano é o conceito fundamental do **Plano Complexo** (também conhecido como **Plano de Argand-Gauss**).
 
 *   **Eixo Horizontal ($x$):** É o **Eixo Real**. O número $a$ (a parte real de $z$) é a coordenada neste eixo.
 *   **Eixo Vertical ($y$):** É o **Eixo Imaginário**. O número $b$ (a parte imaginária de $z$) é a coordenada neste eixo.
@@ -8,14 +8,11 @@ A ideia de representar o número complexo $z = a + bi$ como o ponto $(a, b)$ no 
 O ponto $(a, b)$ representa geometricamente o número complexo $z$. Podemos também representá-lo pelo **vetor** que vai da origem $(0, 0)$ até o ponto $(a, b)$.
 
 ```mermaid
-quadrantChart
-    title "Representação do Número Complexo z = a + bi"
-    x-axis "Eixo Real"
-    y-axis "Eixo Imaginário"
-    point "z = (a, b)" --> ["a", "b"]
-    line "Vetor z" --> [["a", "b"]]
-```
-
+graph
+    A["(0,0)"] --> B["(a,b)"]
+    A -->|"z = a + bi"| B
+``` 
+Agora renderiza bonitinho.
 ---
 
 ### Uma Definição Construtiva dos Complexos
