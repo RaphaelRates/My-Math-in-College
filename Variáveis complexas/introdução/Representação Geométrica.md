@@ -1,5 +1,3 @@
-Com certeza! Vamos refinar a explicação com a formatação matemática correta e ajustar os diagramas.
-
 ### Representação Geométrica dos Números Complexos
 
 A ideia de representar o número complexo $z = a + bi$ como o ponto $(a, b)$ no plano cartesiano é o conceito fundamental do **Plano Complexo** (também conhecido como **Plano de Argand-Gauss**).
