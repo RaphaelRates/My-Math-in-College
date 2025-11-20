@@ -337,7 +337,7 @@ def operacoes_funcoes(f, g, operacao):
 > [!example] **Decaimento Radioativo**
 > `m(t) = m₀·(1/2)^(t/T)` - Meia-vida
 
-**Tags:** #pre-calculo #funções #matemática #álgebra #trigonometria #exponencial #logaritmo
+**Tags:** [[pre-calculo]] [[funções]] [[matemática]] [[álgebra]] [[trigonometria]] [[exponencial]] [[logaritmo]]
 
 ---
 

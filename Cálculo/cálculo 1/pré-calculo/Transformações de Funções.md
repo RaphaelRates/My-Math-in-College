@@ -362,7 +362,7 @@ visualizar_transformacoes(f_base, transformacoes)
 > [!faq] E se a transformação for muito complexa?
 > Quebre em etapas e desenhe o gráfico em cada etapa para visualizar o processo.
 
-**Tags:** #pre-calculo #funções #transformações #gráficos #matemática #álgebra
+**Tags:** [[pre-calculo]] [[funções]] [[transformações]] [[gráficos]] [[matemática]] [[álgebra]]
 
 ---
 

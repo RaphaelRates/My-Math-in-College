@@ -82,4 +82,4 @@
 > - Esquecer de determinar o domínio natural
 > - Assumir que toda equação em x e y define y como função de x
 
-**Tags:** #pre-calculo #funções #matemática #álgebra #domínio #imagem
+**Tags:** [[pre-calculo]] [[funções]] [[matemática]] [[álgebra]] [[domínio]] [[imagem]]

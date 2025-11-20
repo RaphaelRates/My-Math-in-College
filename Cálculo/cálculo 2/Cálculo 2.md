@@ -159,4 +159,4 @@ Cálculo 2 é a continuação natural do Cálculo 1, expandindo os conceitos fun
 
 ---
 
-_Tags: #calculo #matematica #integracao #series #derivadas-parciais #integrais-multiplas_
+_Tags: [[calculo]] [[matematica]] [[integracao]] [[series]] [[derivadas-parciais]] [[integrais-multiplas_]]

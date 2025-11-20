@@ -220,7 +220,7 @@
 
 ## 🏷️ Tags
 
-#algebra-linear-computacional #sistemas-lineares #decomposicao-matricial #svd #qr-decomposition #lu-factorization #metodos-iterativos #gradiente-conjugado #gmres #autovalores #estabilidade-numerica #blas #lapack #numpy #scipy #matlab #performance #paralelizacao #gpu-computing #machine-learning #elementos-finitos #processamento-sinais #computacao-grafica
+[[algebra-linear-computacional]] [[sistemas-lineares]] [[decomposicao-matricial]] [[svd]] [[qr-decomposition]] [[lu-factorization]] [[metodos-iterativos]] [[gradiente-conjugado]] [[gmres]] [[autovalores]] [[estabilidade-numerica]] [[blas]] [[lapack]] [[numpy]] [[scipy]] [[matlab]] [[performance]] [[paralelizacao]] [[gpu-computing]] [[machine-learning]] [[elementos-finitos]] [[processamento-sinais]] [[computacao-grafica]]
 
 ---
 

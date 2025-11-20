@@ -76,4 +76,4 @@ Uma habilidade crucial é decompor uma função complexa em funções mais simpl
 
 ---
 
-**Tags:** #pre-calculo #funções #composição #matemática
+**Tags:** [[pre-calculo]] [[funções]] [[composição]] [[matemática]]

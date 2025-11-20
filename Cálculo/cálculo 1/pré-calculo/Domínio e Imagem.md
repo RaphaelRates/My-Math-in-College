@@ -144,7 +144,7 @@ Dois conceitos fundamentais para entender completamente qualquer função.
 > [!faq] E se a função for definida por partes?
 > Determine o domínio de cada parte e faça a união, tomando cuidado com os pontos de transição.
 
-**Tags:** #pre-calculo #funções #domínio #imagem #relações #matemática
+**Tags:** [[pre-calculo]] [[funções]] [[domínio]] [[imagem]] [[relações]] [[matemática]]
 
 ---
 
@@ -181,4 +181,4 @@ Dois conceitos fundamentais para entender completamente qualquer função.
 > - **Otimização de funções** restritas a domínios específicos
 > - **Processamento de sinais** com restrições de amplitude
 
-**Tags:** #programação #python #computação #matemática-aplicada
+**Tags:** [[programação]] [[python]] [[computação]] [[matemática-aplicada]]

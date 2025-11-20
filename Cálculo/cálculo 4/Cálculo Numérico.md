@@ -320,7 +320,7 @@ flowchart LR
 ---
 ## 🏷️ Sistema de Tags
 
-#calculo-numerico #algoritmos #programacao #matematica-aplicada #simulacao #analise-numerica #computacao-cientifica #metodos-numericos #aproximacao #interpolacao #integracao #diferenciacao #sistemas-lineares #edos #edps #otimizacao #erros-numericos #estabilidade #convergencia
+[[calculo-numerico]] [[algoritmos]] [[programacao]] [[matematica-aplicada]] [[simulacao]] [[analise-numerica]] [[computacao-cientifica]] [[metodos-numericos]] [[aproximacao]] [[interpolacao]] [[integracao]] [[diferenciacao]] [[sistemas-lineares]] [[edos]] [[edps]] [[otimizacao]] [[erros-numericos]] [[estabilidade]] [[convergencia]]
 
 ---
 

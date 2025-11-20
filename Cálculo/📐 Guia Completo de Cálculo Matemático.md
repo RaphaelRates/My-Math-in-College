@@ -199,4 +199,4 @@ Desenvolve técnicas computacionais para resolver problemas matemáticos que nã
 
 ---
 
-_Tags_: #calculo #matematica #derivadas #integrais #limites #funcoes #aplicacoes
+_Tags_: [[calculo]] [[matematica]] [[derivadas]] [[integrais]] [[limites]] [[funcoes]] [[aplicacoes]]

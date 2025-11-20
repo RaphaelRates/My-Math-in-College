@@ -508,4 +508,4 @@ integrate(f, -1, 1)
 
 ---
 
-_Tags_: #calculo1 #limites #derivadas #integrais #matematica #aplicacoes #computacional
+_Tags_: [[calculo1]] [[limites]] [[derivadas]] [[integrais]] [[matematica]] [[aplicacoes]] [[computacional]]

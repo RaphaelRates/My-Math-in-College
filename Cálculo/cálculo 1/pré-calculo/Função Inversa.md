@@ -282,7 +282,7 @@ for teste in testes:
 > [!faq] E se a função for muito complexa?
 > Use métodos numéricos como o método da bisseção ou Newton-Raphson para calcular valores específicos da inversa.
 
-**Tags:** #pre-calculo #funções #inversas #bijetora #matemática #álgebra
+**Tags:** [[pre-calculo]] [[funções]] [[inversas]] [[bijetora]] [[matemática]] [[álgebra]]
 
 ---
 

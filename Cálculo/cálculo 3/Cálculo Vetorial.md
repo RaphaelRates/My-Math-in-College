@@ -215,4 +215,4 @@ O Cálculo Vetorial é o ramo da matemática que estende os conceitos do cálcul
 
 ---
 
-_Tags: #calculo-vetorial #matematica #vetores #campos #integrais #fisica #geometria #operadores-diferenciais_
+_Tags: [[calculo-vetorial]] [[matematica]] [[vetores]] [[campos]] [[integrais]] [[fisica]] [[geometria]] [[operadores-diferenciais_]]
