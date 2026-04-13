@@ -66,10 +66,10 @@ graph TB
 ### 🎯 **4. Limites de Funções**
 
 - [[Definição ε-δ de Limite]]
-- [[Limites Laterais]]
+- [[Cálculo/Cálculo 1/limite/Limites Laterais]]
 - [[Teoremas sobre Limites]]
 - [[Limites no Infinito]]
-- [[Limites Infinitos]]
+- [[Cálculo/Cálculo 1/limite/Limites Infinitos]]
 
 ### 🔄 **5. Continuidade**
 

@@ -41,12 +41,12 @@
 - [[Conceito Intuitivo de Limite]]
 - [[Definição Formal de Limite (ε-δ)]]
 - [[Propriedades Operatórias dos Limites]]
-- [[Limites Laterais]]
+- [[Cálculo/Cálculo 1/limite/Limites Laterais]]
 - [[Teoremas sobre Limites]]
     - Teorema do Confronto
     - Teorema da Conservação do Sinal
 - [[Limites no Infinito]]
-- [[Limites Infinitos]]
+- [[Cálculo/Cálculo 1/limite/Limites Infinitos]]
 - [[Assíntotas]]
     - Verticais
     - Horizontais
