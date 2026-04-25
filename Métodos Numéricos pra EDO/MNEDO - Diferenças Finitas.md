@@ -6,9 +6,7 @@ date: 2024-04-24
 
 # 📊 Métodos de Diferenças Finitas para Equações Diferenciais Ordinárias
 
-## 📖 Conceitos Fundamentais
-
-### O que são Diferenças Finitas?
+## O que são Diferenças Finitas?
 > [!note] 
 > As **diferenças finitas** são técnicas numéricas que aproximam derivadas por expressões algébricas usando valores da função em pontos discretos.
 > ![[Pasted image 20260424073248.png]]
@@ -36,9 +34,7 @@ $$f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}$$
 
 > [!warning] **Erro:** $O(h^2)$
 
-Aqui está um exemplo usando a função ln(x) (logaritmo natural):
-
-## Exemplo com f(x) = ln(x) no ponto x = 2, com h = 0.1
+### Exemplo com f(x) = ln(x) no ponto x = 2, com h = 0.1
 
 > [!example]
 >
@@ -73,6 +69,172 @@ Aqui está um exemplo usando a função ln(x) (logaritmo natural):
 > > [!important] A **Diferença Centrada** (média entre progressiva e regressiva) é a mais precisa, com erro 30 vezes menor!
 
 ---
+### 📌 Método de Newton via Diferenças Finitas
+
+> [!note] 
+>  **método de Newton (ou Newton-Raphson)** precisa da derivada:
+>
+  $$x_{k+1} = x_k - \frac{f(x_k)}{f'(x_k)}$$
+>
+> Mas… e se você **não tem a derivada analítica**?  
+> 👉 Usa **diferenças finitas** pra aproximar ( f'(x) ).
+
+---
+#### ⚙️ Aproximações da Derivada
+> [!tldr] 
+> ##### 🔹 Progressiva (Forward)
+> $$f'(x) \approx \frac{f(x+h)-f(x)}{h}$$
+> - Usa ponto à frente
+> - Mais simples
+> - Menos precisa (erro (O(h)))
+>
+> ##### 🔹 Regressiva (Backward)
+> $$f'(x) \approx \frac{f(x)-f(x-h)}{h}$$
+>
+> - Usa ponto atrás
+> - Mesmo nível de erro da progressiva
+>
+> ##### 🔹 Centrada (Melhor opção)
+> $$f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}$$
+>
+> - Usa dois lados
+> - Muito mais precisa (erro (O(h^2)))
+> - 👉 **essa é a que você usa na prática**
+
+#### 🚀 Newton com Diferença Finita
+> [!seealso] 
+>
+>
+>Substituindo ( f'(x) ):
+>
+> ### Exemplo com diferença centrada:
+>
+> $$x_{k+1} = x_k - \frac{f(x_k)}{\frac{f(x_k+h)-f(x_k-h)}{2h}} $$
+> Simplificando:
+> $$x_{k+1} = x_k - \frac{2h \cdot f(x_k)}{f(x_k+h)-f(x_k-h)}$$
+👉 Isso aqui é o **Newton sem derivada explícita**.
+
+### 🔁 Derivadas de Ordem Maior
+>[!abstract] 
+> #### 🔹 Segunda derivada
+> $$f''(x) \approx \frac{f(x+h)-2f(x)+f(x-h)}{h^2}$$
+> #### 🔹 Terceira derivada
+> $$f'''(x) \approx \frac{f(x+2h) - 2f(x+h) + 2f(x-h) - f(x-2h)}{2h^3}$$
+> #### 🔹 Forma geral (até N derivadas)
+>
+> A ideia geral:
+> $$f^{(n)}(x) \approx \frac{1}{h^n} \sum_{k=-m}^{m} c_k \cdot f(x + k h)$$
+>
+> - $c_k$: coeficientes (vindos de expansão de Taylor)
+> - Quanto maior $n$, mais pontos você precisa
+
+> [!example]
+> 
+> #### 🔹 Segunda derivada (exemplo)
+> 
+> Queremos aproximar a segunda derivada de:  
+> $$f(x) = x^2$$
+> 
+> Sabemos que:  
+> $$f''(x) = 2$$
+> 
+> Usando diferença centrada com $h = 0.1$ em $x = 1$:
+> 
+> $$f''(x) \approx \frac{f(x+h)-2f(x)+f(x-h)}{h^2}$$
+> 
+> Calculando:
+> 
+> - $f(1.1) = 1.21$
+> - $f(1) = 1$
+> - $f(0.9) = 0.81$
+> 
+> $$f''(1) \approx \frac{1.21 - 2(1) + 0.81}{0.01} = \frac{0.02}{0.01} = 2$$
+> 
+> ✔️ Resultado exato (porque a função é polinomial de grau 2)
+
+> [!example]
+> 
+> #### 🔹 Terceira derivada (exemplo)
+> 
+> Agora:  
+> $$f(x) = x^3$$
+> 
+> Sabemos:  
+> $$f'''(x) = 6$$
+> 
+> Usando (h = 0.1) em (x = 1):
+> 
+> $$f'''(x) \approx \frac{f(x+2h) - 2f(x+h) + 2f(x-h) - f(x-2h)}{2h^3}$$
+> 
+> Valores:
+> 
+> - (f(1.2) = 1.728)
+>     
+> - (f(1.1) = 1.331)
+>     
+> - (f(0.9) = 0.729)
+>     
+> - (f(0.8) = 0.512)
+>     
+> 
+> Substituindo:  
+> $$f'''(1) \approx \frac{1.728 - 2(1.331) + 2(0.729) - 0.512}{2(0.001)}$$
+> 
+> $$= \frac{1.728 - 2.662 + 1.458 - 0.512}{0.002} = \frac{0.012}{0.002} = 6$$
+> 
+> ✔️ De novo, cravou o valor
+
+> [!example]
+> 
+> #### 🔹 Forma geral (N-ésima derivada)
+> 
+> Vamos ilustrar com um caso simples:  
+> (n = 1) (derivada de primeira ordem)
+> 
+> $$f(x) = x^2$$
+> 
+> Sabemos:  
+> $$f'(x) = 2x \Rightarrow f'(1) = 2$$
+> 
+> Forma geral:
+> 
+> f^{(n)}(x) \approx \frac{1}{h^n} \sum_{k=-m}^{m} c_k \cdot f(x + k h)
+> 
+> Para derivada centrada:
+> 
+> - (c_{-1} = -\frac{1}{2})
+>     
+> - (c_{1} = \frac{1}{2})
+>     
+> 
+> Então:  
+> $$f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}$$
+> 
+> Usando (h = 0.1):
+> 
+> - (f(1.1) = 1.21)
+>     
+> - (f(0.9) = 0.81)
+>     
+> 
+> $$f'(1) \approx \frac{1.21 - 0.81}{0.2} = \frac{0.4}{0.2} = 2$$
+> 
+> ✔️ A forma geral gera os métodos específicos
+
+> [!done] 💡 Intuição rápida
+>
+>- Diferença finita = derivada “aproximada com pontos”
+>- Newton usa derivada → então dá pra **enganar ele com aproximação**
+>- Centrada = melhor custo-benefício
+>- Derivadas maiores = padrões baseados em Taylor
+
+> [!warning] 
+> ##### ⚠️ Dica prática (importante)
+>
+> - Escolha $h)$ pequeno, mas não ridiculamente pequeno  
+>     👉 tipo: $10^{-5}$ ou $10^{-6}$
+> - Muito pequeno → erro numérico
+> - Muito grande → erro de aproximação
 
 ## 🎯 Métodos para Problemas de Valor Inicial (PVI)
 
