@@ -162,20 +162,16 @@ $$f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}$$
 > Sabemos:  
 > $$f'''(x) = 6$$
 > 
-> Usando (h = 0.1) em (x = 1):
+> Usando $h = 0.1$ em $x = 1$:
 > 
 > $$f'''(x) \approx \frac{f(x+2h) - 2f(x+h) + 2f(x-h) - f(x-2h)}{2h^3}$$
 > 
 > Valores:
 > 
-> - (f(1.2) = 1.728)
->     
-> - (f(1.1) = 1.331)
->     
-> - (f(0.9) = 0.729)
->     
-> - (f(0.8) = 0.512)
->     
+> - $f(1.2) = 1.728$
+> - $f(1.1) = 1.331$
+> - $f(0.9) = 0.729$
+> - $f(0.8) = 0.512$
 > 
 > Substituindo:  
 > $$f'''(1) \approx \frac{1.728 - 2(1.331) + 2(0.729) - 0.512}{2(0.001)}$$
@@ -189,7 +185,7 @@ $$f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}$$
 > #### 🔹 Forma geral (N-ésima derivada)
 > 
 > Vamos ilustrar com um caso simples:  
-> (n = 1) (derivada de primeira ordem)
+> $n = 1$ (derivada de primeira ordem)
 > 
 > $$f(x) = x^2$$
 > 
@@ -198,24 +194,19 @@ $$f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}$$
 > 
 > Forma geral:
 > 
-> f^{(n)}(x) \approx \frac{1}{h^n} \sum_{k=-m}^{m} c_k \cdot f(x + k h)
+> $$f^{(n)}(x) \approx \frac{1}{h^n} \sum_{k=-m}^{m} c_k \cdot f(x + k h)$$
 > 
 > Para derivada centrada:
-> 
-> - (c_{-1} = -\frac{1}{2})
->     
-> - (c_{1} = \frac{1}{2})
->     
+> - $c_{-1} = -\frac{1}{2}$
+> - $c_{1} = \frac{1}{2}$
 > 
 > Então:  
 > $$f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}$$
 > 
-> Usando (h = 0.1):
+> Usando $h = 0.1$:
 > 
-> - (f(1.1) = 1.21)
->     
-> - (f(0.9) = 0.81)
->     
+> - $f(1.1) = 1.21$
+> - $f(0.9) = 0.81$
 > 
 > $$f'(1) \approx \frac{1.21 - 0.81}{0.2} = \frac{0.4}{0.2} = 2$$
 > 
@@ -235,6 +226,137 @@ $$f''(x) \approx \frac{f(x+h) - 2f(x) + f(x-h)}{h^2}$$
 >     👉 tipo: $10^{-5}$ ou $10^{-6}$
 > - Muito pequeno → erro numérico
 > - Muito grande → erro de aproximação
+
+#### 🔹 Ideia geral (via Série de Taylor)
+
+> [!note]
+> 
+> A gente expande a função em torno de (x):
+> 
+> $$f(x+h) = f(x) + h f'(x) + \frac{h^2}{2}f''(x) + \cdots$$
+> 
+> Depois combina várias expansões tipo $f(x+h)$, $f(x-h)$, etc.
+> 
+> 👉 objetivo: **cancelar termos e isolar a derivada desejada**
+>
+> 
+> ✔️ Exemplo:
+> 
+> Somando:  
+> $$f(x+h) + f(x-h) = 2f(x) + h^2 f''(x) + \cdots$$
+> 
+> Isolando:
+> 
+> $$f''(x) \approx \frac{f(x+h)-2f(x)+f(x-h)}{h^2}$$
+> 
+> ---
+> 
+> ✔️ Resumo bruto:
+> 
+> - Taylor gera várias cópias da função deslocada
+> - você combina elas
+> - os termos indesejados se cancelam
+> - sobra a derivada que você quer
+> 
+> 👉 **diferença finita = engenharia de cancelamento com Taylor**
+
+> [!example]
+> 
+> #### 🔹 Segunda derivada via Série de Taylor
+> 
+> Expansões em torno de (x):
+> 
+> $$f(x+h) = f(x) + h f'(x) + \frac{h^2}{2}f''(x) + \frac{h^3}{6}f'''(x) + \cdots$$ 
+> 
+> $$f(x-h) = f(x) - h f'(x) + \frac{h^2}{2}f''(x) - \frac{h^3}{6}f'''(x) + \cdots$$
+> 
+> Somando:
+> 
+>   
+> $$f(x+h) + f(x-h) = 2f(x) + h^2 f''(x) + \cdots$$
+> 
+> Isolando:
+> 
+> $$f''(x) \approx \frac{f(x+h)-2f(x)+f(x-h)}{h^2}$$
+> 
+> Exemplo com $f(x)=x^2$, $h=0.1$, $x=1$:
+> 
+> - $f(1.1)=1.21$
+> - $f(1)=1$
+> - $f(0.9)=0.81$
+> 
+> $$f''(1) \approx \frac{1.21 - 2 + 0.81}{0.01} = 2$$
+> 
+> ✔️ Taylor matou os termos ímpares e isolou a segunda derivada
+
+> [!example]
+> 
+> #### 🔹 Terceira derivada via Série de Taylor
+> 
+> Agora usamos mais pontos:
+> 
+> Expansões de $f(x \pm h)$ e $f(x \pm 2h)$
+> 
+> A combinação:
+> 
+> $$f(x+2h) - 2f(x+h) + 2f(x-h) - f(x-2h)$$
+> 
+> 👉 cancela termos até sobrar $f'''(x)$
+> 
+> Resultado:
+> 
+> $$f'''(x) \approx \frac{f(x+2h) - 2f(x+h) + 2f(x-h) - f(x-2h)}{2h^3}$$
+> 
+> Exemplo com $f(x)=x^3$, $x=1$, $h=0.1$:
+> 
+> - $f(1.2)=1.728$
+> - $f(1.1)=1.331$
+> - $f(0.9)=0.729$
+> - $f(0.8)=0.512$
+> 
+> $$f'''(1) \approx \frac{1.728 - 2(1.331) + 2(0.729) - 0.512}{0.002} = 6$$
+> 
+> ✔️ Combinação esperta = cancelamento cirúrgico dos termos
+
+> [!example]
+> 
+> #### 🔹 Forma geral (N-ésima derivada via Taylor)
+> 
+> A ideia é sempre:
+> 
+> - Expandir $f(x+kh)$ em série de Taylor
+> - Combinar linearmente
+> - Cancelar termos até sobrar só $f^{(n)}(x)$
+> 
+> Resultado geral:
+> 
+> $$f^{(n)}(x) \approx \frac{1}{h^n} \sum_{k=-m}^{m} c_k \cdot f(x + k h)$$
+> 
+> Exemplo: derivada de 1ª ordem (centrada)
+> 
+> Expansões:
+> 
+> $$f(x+h) = f(x) + h f'(x) + \cdots$$
+> 
+> $$f(x-h) = f(x) - h f'(x) + \cdots$$
+> 
+> Subtraindo:
+> 
+> $$f(x+h) - f(x-h) = 2h f'(x) + \cdots$$
+> 
+> Logo:
+> 
+> $$f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}$$
+> 
+> Exemplo com $f(x)=x^2$, $h=0.1$:
+> 
+> - $f(1.1)=1.21$
+> - $f(0.9)=0.81$
+> 
+> $$f'(1) \approx \frac{1.21 - 0.81}{0.2} = 2$$
+> 
+> ✔️ Moral da história:  
+> **diferença finita = álgebra em cima da Série de Taylor**
 
 ## 🎯 Métodos para Problemas de Valor Inicial (PVI)
 
@@ -410,8 +532,6 @@ def finite_difference(p, q, f, a, b, ya, yb, n):
     return x, y
 ```
 
----
-
 ## 📊 Exemplo Prático
 
 ### Problema: Crescimento Populacional
@@ -428,7 +548,6 @@ $$y' = 0.1y, \quad y(0) = 100$$
 | **Euler Melhorado** | 164.461 | 0.411 |
 | **RK4** | 164.872 | < 0.001 |
 
----
 
 ## ⚠️ Erros e Estabilidade
 
@@ -444,20 +563,18 @@ Acumula-se devido às operações de ponto flutuante
 - **Condição para Euler:** $|1 + h\lambda| \leq 1$ (para $y' = \lambda y$)
 - **RK4:** Estável para $|1 + h\lambda + \frac{(h\lambda)^2}{2} + \frac{(h\lambda)^3}{6} + \frac{(h\lambda)^4}{24}| \leq 1$
 
----
 
 ## ✅ Resumo e Recomendações
 
-| Situação | Método Recomendado |
-|----------|-------------------|
-| **Iniciante/Aprendizado** | Euler ou Euler Melhorado |
-| **Problemas gerais** | RK4 |
-| **Problemas rígidos** | Métodos implícitos |
-| **Problemas de contorno** | Diferenças Finitas |
+| Situação                     | Método Recomendado       |
+| ---------------------------- | ------------------------ |
+| **Iniciante/Aprendizado**    | Euler ou Euler Melhorado |
+| **Problemas gerais**         | RK4                      |
+| **Problemas rígidos**        | Métodos implícitos       |
+| **Problemas de contorno**    | Diferenças Finitas       |
 | **Alta precisão necessária** | RK4 com passo adaptativo |
-| **Recursos limitados** | Euler Melhorado |
-
----
+| **Recursos limitados**       | Euler Melhorado          |
+|                              |                          |
 
 ## 📚 Referências
 
@@ -465,4 +582,3 @@ Acumula-se devido às operações de ponto flutuante
 2. Chapra, S.C. (2018). *Métodos Numéricos para Engenheiros*
 3. Butcher, J.C. (2016). *Numerical Methods for Ordinary Differential Equations*
 
----
