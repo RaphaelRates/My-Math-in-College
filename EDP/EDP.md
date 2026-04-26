@@ -82,7 +82,7 @@ date: 2026-04-26
 ## 📖 Definição
 
 > [!note]
-> Uma **Equação Diferencial Parcial (EDP)** é uma equação que envolve **derivadas parciais** de uma função desconhecida de **duas ou mais variáveis independentes**.
+> Uma **Equação Diferencial Parcial (EDP)** é uma equação que envolve **derivadas parciais** de uma função desconhecida de **duas ou mais variáveis independentes** $(x,y,z,t,w, \dots)$. 
 >
 ### Forma Geral:
 > [!note] 
