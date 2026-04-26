@@ -99,7 +99,6 @@ Você vai contando: 1, 2, 3… até o primeiro que aparece em $A$. Esse primeiro
 **Prova (PBO ⇒ Indução):**
 >
 Suponha que queremos provar que $P(n)$ é verdadeiro para todo $n \in \mathbb{N}$.
->
 Seja $S = \{n \in \mathbb{N} : P(n) \text{ é falso}\}$.
 >
 Assuma que $S \neq \emptyset$. Pelo PBO, $S$ possui um elemento mínimo $m$.
@@ -131,13 +130,55 @@ Logo $T$ é bem ordenado. ∎
 
 ### 1. Algoritmo da Divisão
 
-> [!note]
-> Para quaisquer $a, b \in \mathbb{N}$ com $b > 0$, existem únicos $q, r \in \mathbb{N}$ tais que:
-$$a = bq + r, \quad 0 \leq r < b$$
+> [!note]  
+> Para quaisquer $a, b \in \mathbb{N}$ com $b > 0$, existem únicos $q, r \in \mathbb{N}$ tais que:  
+> $$  
+> a = bq + r, \quad 0 \leq r < b  
+> $$  
 >
-> **Prova usando PBO:**
-Seja $S = \{a - bq \geq 0 : q \in \mathbb{N}\}$. Pelo PBO, $S$ tem elemento mínimo $r$. Mostra-se que $r < b$.
-> 
+> **Prova usando PBO:**  
+> Seja  
+> $$  
+> S = \{\, a - bq \geq 0 : q \in \mathbb{N} \,\}.  
+> $$  
+> Pelo PBO, $S$ tem elemento mínimo $r$. Mostra-se que $r < b$.
+>
+> Sendo $T$ o conjunto dos múltiplos de $b$ maiores que $a$. Então $T \neq \varnothing$, pois $b(q + 1) \in T$.  
+> Continuando, pelo PBO, $\exists q_0 \in \mathbb{N}$ tal que $bq_0 \in T$ é o menor elemento de $T$.  
+>
+> Note que $q_0 > q$. Logo, $q_0 = q + 1$. Então  
+> $$  
+> bq < a < b(q+1).  
+> $$  
+>
+> Se $b \cdot q = a$, então $a$ é múltiplo de $b$. Caso contrário,  
+> $$  
+> a = bq + r.  
+> $$  
+> Temos que $r < b$, pois, se fosse $r = b$, teríamos  
+> $$  
+> a = bq + b = b(q + 1),  
+> $$  
+> o que é uma contradição.
+>
+> Se fosse $r > b$, então  
+> $$  
+> \exists p \in \mathbb{N} \text{ tal que } a = bq + b + p,  
+> $$  
+> ou seja,  
+> $$  
+> a = b(q + 1) + p > bq_0,  
+> $$  
+> o que também é uma contradição.
+
+> [!faq]  
+> A unicidade de $q$ e $r$ segue do fato de que  
+> $$  
+> q_0 = q + 1  
+> $$  
+> é o menor elemento tal que $bq_0 \geq a$.  
+
+---
 ### 2. Teorema Fundamental da Aritmética
 
 > [!note] 
