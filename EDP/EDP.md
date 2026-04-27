@@ -133,7 +133,7 @@ A função $u$ e suas derivadas aparecem **linearmente** (expoente 1).
 $$\frac{\partial u}{\partial t} = k \frac{\partial^2 u}{\partial x^2}$$
 
 #### EDP Semi-linear:
-Linear nas derivadas de maior ordem, mas não necessariamente em $u$.
+Linear nas derivadas de maior ordem, mas não necessariamente em $u$. Normalmente quando a parte principal da EDP é linear.
 
 #### EDP Quase-linear:
 Linear nas derivadas de maior ordem.
