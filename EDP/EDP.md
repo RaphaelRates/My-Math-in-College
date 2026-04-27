@@ -127,22 +127,26 @@ A **ordem** de uma EDP é a maior ordem de derivação presente.
 ### 2. Quanto à Linearidade
 
 #### EDP Linear:
-A função $u$ e suas derivadas aparecem **linearmente** (expoente 1).
-
-**Exemplo:** 
-$$\frac{\partial u}{\partial t} = k \frac{\partial^2 u}{\partial x^2}$$
+> [!seealso] 
+>  função $u$ e suas derivadas aparecem **linearmente** (expoente 1).
+>
+> **Exemplo:** 
+> $$\frac{\partial u}{\partial t} = k \frac{\partial^2 u}{\partial x^2}$$
 
 #### EDP Semi-linear:
-Linear nas derivadas de maior ordem, mas não necessariamente em $u$. Normalmente quando a parte principal da EDP é linear.
+> [!seealso] 
+>  Linear nas derivadas de maior ordem, mas não necessariamente em $u$. Normalmente quando a parte principal da EDP é linear.
 
 #### EDP Quase-linear:
-Linear nas derivadas de maior ordem.
+> [!seealso] 
+>  Linear nas derivadas de maior ordem.
 
 #### EDP Não-linear:
-Não linear nas derivadas de maior ordem.
-
-**Exemplo:**
-$$\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = 0 \quad \text{(Equação de Burgers)}$$
+> [!seealso] 
+>  Não linear nas derivadas de maior ordem.
+>
+>**Exemplo:**
+> $$\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = 0 \quad \text{(Equação de Burgers)}$$
 
 ---
 
