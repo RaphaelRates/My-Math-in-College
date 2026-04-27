@@ -88,6 +88,16 @@ date: 2026-04-26
 > [!note] 
 > $$F\left(x_1, x_2, \dots, x_n, u, \frac{\partial u}{\partial x_1}, \dots, \frac{\partial^m u}{\partial x_1^m \dots \partial x_n^m}\right) = 0$$
 
+#### Notações de Derivada
+> [!summary]
+> 
+> **Primeira derivada:** $\displaystyle \frac{\partial U}{\partial x}$, $U_x$, $\partial_x U$, $D_1 U$  
+> <br></br>
+> **Segunda derivada:** $\displaystyle \frac{\partial^2 U}{\partial x^2}$, $U_{xx}$, $\partial_{xx} U$, $D_1^2 U$  <br></br>
+> **Terceira derivada:** $\displaystyle \frac{\partial^3 U}{\partial x^3}$, $U_{xxx}$, $\partial_{xxx} U$, $D_1^3 U$  <br></br>
+> **Derivada mista:** $\displaystyle \frac{\partial^2 U}{\partial x \partial y}$, $U_{xy}$, $\partial_{xy} U$, $D_{12} U$  <br></br>
+> **Derivada de ordem $n$:** $\displaystyle \frac{\partial^n U}{\partial x^n}$, $U_{x^n}$, $\partial_x^n U$, $D_1^n U$
+
 ---
 ## 🎯 Diferença entre EDO e EDP
 
