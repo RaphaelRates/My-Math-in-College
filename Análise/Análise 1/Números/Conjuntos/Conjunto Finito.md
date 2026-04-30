@@ -150,5 +150,43 @@ Seja $x_0 = F^{-1}(b)$. Defina $g: X \to Y$ por:
  
 ---
 
+> [!abstract] ### Teorema
+> ### Todo subconjunto de um conjunto finito $X$ é finito.
+>
+> #### Prova
+>
+> Faremos por indução no número de elementos de $X$.
+>
+> **Base:** Se $|X| = 0$, então $X = \varnothing$. O único subconjunto de $X$ é $\varnothing$, que é finito.
+>
+> **Passo indutivo:** Suponha que todo subconjunto de um conjunto com $n$ elementos é finito.
+>
+> Seja $X$ um conjunto com $n+1$ elementos. Então existe $a \in X$ tal que o conjunto
+> $$
+> X \setminus \{a\}
+> $$
+> tem $n$ elementos, logo é finito.
+>
+> Seja $A \subseteq X$. Temos dois casos:
+>
+> - **Caso 1:** $a \notin A$.  
+>   Então $A \subseteq X \setminus \{a\}$. Pela hipótese de indução, $A$ é finito.
+>
+> - **Caso 2:** $a \in A$.  
+>   Então
+>   $$
+>   A \setminus \{a\} \subseteq X \setminus \{a\}.
+>   $$
+>   Pela hipótese de indução, $A \setminus \{a\}$ é finito.  
+>   Como $A = (A \setminus \{a\}) \cup \{a\}$, segue que $A$ é finito.
+>
+> Portanto, em ambos os casos, $A$ é finito.
+>
+> Concluímos, por indução, que todo subconjunto de um conjunto finito é finito.
+> 
+> ### Outra forma
+> sendo $f: I_n \to X$ uma bijeção que podemos supor que $f(n) = a$. Se $n=1$, então $X - \{a\}$ é finito.
+
+
 > [!error]
 > Possíveis inconsistências de notação foram corrigidas (símbolos, duplicações e formatação).
