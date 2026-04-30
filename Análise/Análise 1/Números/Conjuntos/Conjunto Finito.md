@@ -139,6 +139,11 @@ Seja $x_0 = F^{-1}(b)$. Defina $g: X \to Y$ por:
 > Prova:
 > 1. Se $m < n$
 > 	1. $I_m$ é o subconjunto próprio de $I_n$, e $g^{-1} o f: I_m \to I_n$ seria uma bijeção
+> 	2. Analogamente pra $n < m$
+
+> [!note] ### Colorário
+> #### Seja $X$ finito. Então $F: X \to X$ é injetora e, e somente se, $f$ é sobrejetora
+
 
 ---
 
