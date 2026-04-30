@@ -143,8 +143,11 @@ Seja $x_0 = F^{-1}(b)$. Defina $g: X \to Y$ por:
 
 > [!note] ### Colorário
 > #### Seja $X$ finito. Então $F: X \to Y$ é injetora e, e somente se, $f$ é sobrejetora
+> 
 
-
+> [!note] ### Colorário
+> #### Não existe bijeção entre um conjunto finito e uma sua parte própria.
+ 
 ---
 
 > [!error]
