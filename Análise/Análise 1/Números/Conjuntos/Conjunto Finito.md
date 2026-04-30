@@ -1,19 +1,48 @@
 > [!note]
 > ### Definição Formal
 >
-> Um **conjunto** $A$ é dito **finito** quando $A$ é vazio ou existe uma bijeção entre $A$ e algum conjunto da forma $\{1,2,\dots,n\}$, com $n \in \mathbb{N}$. Isto é:
+> Um **conjunto** $A$ é dito **finito** quando $A$ é vazio ou existe uma bijeção entre $A$ e algum conjunto da forma $\{1,2,\dots,n\}$ ou do conjunto $I_n$, com $n \in \mathbb{N}$. Isto é:
 > $$
-> \exists f: A \to \{1,2,\dots,n\} \quad \text{tal que } f \text{ é bijetora.}
+> \exists f: A \to \{1,2,\dots,n\} \quad \text{ tal que } f \text{ é bijetora.}
 > $$
 
 > [!abstract]
 > _Este conceito é fundamental na teoria de espaços normados e topológicos, pois conjuntos finitos possuem propriedades triviais de compacidade e completude._
 
+> [!note] Contagem
+> é a função $f$ bijetora do conjunto finito. É a contagem dos elementos de $A$
+
+> [!note] Numero Cardinal
+> Número $n$ de elementos de $A$, denotado por $$n(A)$$
+
 ---
 
-> [!warning]
-> #### Lema
-> Se "Existe"
+> [!summary] #### Lema
+> Seja $F: X \to Y$ uma bijeção. Sejam $a \in X$ e $b \in Y$. Então existe uma bijeção $g: X \to Y$ tal que
+> $$
+> g(a) = b.
+> $$
+>
+> #### Ideia da construção
+>
+Seja $x_0 = F^{-1}(b)$. Defina $g: X \to Y$ por:
+>
+> $$
+> g(x) =
+> \begin{cases}
+> b, & \text{se } x = a \\
+> F(a), & \text{se } x = x_0 \\
+> F(x), & \text{caso contrário}
+> \end{cases}
+> $$
+>
+> #### Intuição
+>
+> A função $g$ é obtida a partir de $F$ trocando apenas duas imagens:
+> - a de $a$, que passa a ser $b$
+> - e a de $x_0$, que passa a ser $F(a)$
+>
+> Esse "swap" preserva a bijetividade.
 
 ---
 
