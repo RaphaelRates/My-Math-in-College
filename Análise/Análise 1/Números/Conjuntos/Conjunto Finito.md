@@ -111,5 +111,31 @@ Seja $x_0 = F^{-1}(b)$. Defina $g: X \to Y$ por:
 
 ---
 
+> [!note] ### Teorema
+> Se $A$ é um subconjunto próprio de $I_n = \{1,2,\dots,n\}$, então não existe bijeção
+> $$
+> f: A \to I_n.
+> $$
+>
+> #### Prova
+>
+> Suponha, por contradição, que exista tal bijeção. Seja $n_0 \in \mathbb{N}$ o menor natural para o qual existe um subconjunto próprio $A \subsetneq I_{n_0}$ e uma bijeção
+> $$
+> f: A \to I_{n_0}.
+> $$
+>
+> Note que $n_0 > 1$, pois o caso $n=1$ é trivial.
+>
+> Como $A \subsetneq I_{n_0}$, existe $k \in I_{n_0}$ tal que $k \notin A$.
+>
+> Logo, $A$ tem no máximo $n_0 - 1$ elementos, enquanto $I_{n_0}$ tem $n_0$ elementos.
+>
+> Isso contradiz o fato de que $f$ é bijetora.
+>
+> Portanto, não existe bijeção $f: A \to I_n$.
+
+
+---
+
 > [!error]
 > Possíveis inconsistências de notação foram corrigidas (símbolos, duplicações e formatação).
