@@ -134,6 +134,11 @@ Seja $x_0 = F^{-1}(b)$. Defina $g: X \to Y$ por:
 >
 > Portanto, não existe bijeção $f: A \to I_n$.
 
+> [!note] ### Colorário
+> #### Se $f: I_n \to X$ e $g: I_m \to X$ então $m=n$
+> Prova:
+> 1. Se $m < n$
+> 	1. $I_m$ é o subconjunto próprio de $I_n$, e $g^{-1} o f: I_m \to I_n$ seria uma bijeção
 
 ---
 
