@@ -1,55 +1,95 @@
 ### Definição Formal
 
-Um **conjunto A** é dito **finito**  quando **A** é vazio se existe uma bijeção entre A e algum conjunto da forma $${1,2,...,n}\text{  }\{1, 2, ..., n\}, \text{ com } n∈Nn \in \mathbb{N}$$. Isto é:
+> [!definition]
+> Um conjunto $A$ é dito **finito** se $A = \varnothing$ ou se existe uma bijeção entre $A$ e um conjunto da forma $\{1,2,\dots,n\}$, com $n \in \mathbb{N}$.
+>
+> Isto é:
+> $$
+> \exists f: A \to \{1,2,\dots,n\} \text{ tal que } f \text{ é bijetora.}
+> $$
 
-$$∃f:A→{1,2,...,n}\text{ tal que } f \text{ é bijetora} .\exists f: A \to \{1, 2, ..., n\} \quad \text{ tal que } f \text{ é bijetora.}$$
-
-> 💡 _Este conceito é fundamental na teoria de espaços normados e topológicos, pois conjuntos finitos possuem propriedades triviais de compacidade e completude._
-
----
-#### Lema
-Se "Existe "
-### 💡 Propriedade 1: Todo subconjunto de um conjunto finito é finito.
-
-**Prova:**  
-Seja AA finito com ∣A∣=n|A| = n, e seja B⊆AB \subseteq A.  
-Como $f:A→{1,2,...,n}$  ou seja $f: A \to \{1, 2, ..., n\}$  é bijetora, a restrição de f a B, denotada f∣Bf|_B, é injetora, com imagem em {1,2,...,n}\{1, 2, ..., n\}.  
-Logo, BB é finito.
-
-**Corolário 1.1:**  
-O número de subconjuntos de um conjunto finito A com $∣A∣=n|A| = n \text{ é } 2n2^n$ .
+> [!note]
+> Este conceito é fundamental na teoria de espaços normados e topológicos, pois conjuntos finitos possuem propriedades triviais de compacidade e completude.
 
 ---
 
-### 💡 Propriedade 2: Toda função definida em um conjunto finito atinge um máximo e um mínimo (em ℝ)
-
-**Teorema (Extremalidade em espaços métricos):**  
-Seja $A⊂RA \subset \mathbb{R}$ um conjunto finito e $f:A→Rf: A \to \mathbb{R}$ uma função qualquer.  
-Então:
-
-$$∃xmin⁡,xmax⁡∈A \text{ tais que } f(xmin⁡)≤f(x)≤f(xmax⁡),∀x∈A.\exists x_{\min}, x_{\max} \in A $$Tais que $$ f(x_{\min}) \leq f(x) \leq f(x_{\max}), \quad \forall x \in A$$.
-
-> 🧠 _A compacidade (no sentido funcional) é trivialisada no caso finito, pois a imagem é sempre limitada e fechada por ser finita._
+> [!lemma]
+> Se existe $a \in X$ tal que $X - \{a\}$ é finito, então $X$ é finito.
 
 ---
 
-### 🔎 Análise Funcional: Conjuntos Finitos e Espaços de Banach
+### 💡 Propriedade 1: Todo subconjunto de um conjunto finito é finito
 
-Em espaços normados $(X,∥⋅∥)(X, \| \cdot \|)$, considere um conjunto finito A={x1,...,xn}⊂XA = $\{x_1, ..., x_n\} \subset X$.
+> [!theorem]
+> Se $A$ é finito e $B \subseteq A$, então $B$ é finito.
 
-Se definirmos uma função f:A→Rf: A $\to \mathbb{R}$, temos:$$ f∈ℓ∞(A)f \in \ell^\infty(A)$$ automaticamente, pois:
-$$∥f∥∞=max⁡1≤i≤n∣f(xi)∣<∞\|f\|_{\infty} = \max_{1 \leq i \leq n} |f(x_i)| < \infty$$
+> [!proof]
+> Seja $A$ finito com $|A| = n$, e seja $B \subseteq A$.
+>
+> Como existe uma bijeção
+> $$
+> f: A \to \{1,2,\dots,n\},
+> $$
+> a restrição $f|_B$ é injetora, com imagem contida em $\{1,2,\dots,n\}$.
+>
+> Logo, $B$ é finito.
 
-**Corolário 2.1:**  
-O espaço de funções reais sobre A, denotado $A\mathbb{R}^A$, é um espaço de Banach com a norma do supremo.
+> [!corollary]
+> Se $|A| = n$, então o número de subconjuntos de $A$ é
+> $$
+> 2^n.
+> $$
 
 ---
 
-### 🧪 Demonstração de Base: Norma Induzida
+### 💡 Propriedade 2: Extremalidade em conjuntos finitos
 
-Seja $A={x1,...,xn}⊂XA = \{x_1, ..., x_n\} \subset X$, e f:A→Rf: A $\to \mathbb{R}$.  
-Então ff pode ser escrito como vetor:
+> [!theorem]
+> Seja $A \subset \mathbb{R}$ finito e $f: A \to \mathbb{R}$.
+>
+> Então existem $x_{\min}, x_{\max} \in A$ tais que
+> $$
+> f(x_{\min}) \leq f(x) \leq f(x_{\max}), \quad \forall x \in A.
+> $$
 
-$$f=(f(x1),...,f(xn))∈Rnf = (f(x_1), ..., f(x_n)) \in \mathbb{R}^n$$
+> [!note]
+> No caso finito, a compacidade é trivial: a imagem de $A$ por $f$ é um conjunto finito, logo limitado e fechado.
 
-A norma $∥f∥∞=max⁡∣f(xi)∣\|f\|_{\infty} = \max |f(x_i)|$  torna $Rn\mathbb{R}^n$ um espaço normado completo, isto é, um espaço de Banach.
+---
+
+### 🔎 Análise Funcional: Conjuntos Finitos
+
+> [!important]
+> Seja $(X, \|\cdot\|)$ um espaço normado e $A = \{x_1, \dots, x_n\} \subset X$.
+
+Se $f: A \to \mathbb{R}$, então automaticamente:
+$$
+f \in \ell^\infty(A),
+$$
+pois
+$$
+\|f\|_\infty = \max_{1 \leq i \leq n} |f(x_i)| < \infty.
+$$
+
+> [!corollary]
+> O espaço $\mathbb{R}^A$ é um espaço de Banach com a norma do supremo.
+
+---
+
+### 🧪 Demonstração de Base
+
+> [!proof]
+> Seja $A = \{x_1, \dots, x_n\}$ e $f: A \to \mathbb{R}$.
+>
+> Então $f$ pode ser identificado com o vetor:
+> $$
+> f = (f(x_1), \dots, f(x_n)) \in \mathbb{R}^n.
+> $$
+>
+> A norma
+> $$
+> \|f\|_\infty = \max_{1 \leq i \leq n} |f(x_i)|
+> $$
+> torna $\mathbb{R}^n$ um espaço normado completo.
+>
+> Logo, é um espaço de Banach.
