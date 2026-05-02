@@ -253,10 +253,28 @@ Seja $x_0 = F^{-1}(b)$. Defina $g: X \to Y$ por:
 > Concluímos, por indução, que todo subconjunto de um conjunto finito é finito.
 > 
 > ### Outra forma
-> sendo $f: I_n \to X$ uma bijeção que podemos supor que $f(n) = a$. Se $n=1$, então $X - \{a\}$ é finito.
-> Se $n > $, então $I_{n-1} \noequal \void$ e a restrição de $f = I_{n-1} é uma bijeção de I_{n-1} sobre $X - {a}$. Logo, X - {a} é finito e tem $n-q$ elementos.
-> 
-> ## Se $x \noequal void$ ou se $X$ tem um elemento
+> Sendo $f: I_n \to X$ uma bijeção, podemos supor que $f(n) = a$.
+>
+> Se $n = 1$, então $X - \{a\} = \varnothing$, logo é finito.
+>
+> Se $n > 1$, então $I_{n-1} \neq \varnothing$ e a restrição de $f$ a $I_{n-1}$, isto é,  
+> $$
+> f|_{I_{n-1}} : I_{n-1} \to X - \{a\}
+> $$
+> é uma bijeção.
+>
+> Logo, $X - \{a\}$ é finito e tem $n - 1$ elementos.
+> ### Conclusão
+> Portanto, se $X$ é finito e $a \in X$, então $X - \{a\}$ também é finito.
+>
+> Reciprocamente, se existe $a \in X$ tal que $X - \{a\}$ é finito, então $X$ é finito, pois
+> podemos construir uma bijeção adicionando o elemento $a$ ao conjunto.
+>
+> Assim, vale que:
+>
+> $$
+> X \text{ é finito } \iff X - \{a\} \text{ é finito}.
+> $$
 
 
 > [!error]
