@@ -24,7 +24,6 @@
 > [!note] # Conjunto Limitado
 > Quando $X \in \mathbb{N}$ respeita isso: $$p \in \mathbb{N} \text{ tal que } x \leq p \text{ , } \forall x \in X$$
 
-
 ---
 
 > [!note] ### Exemplos
