@@ -153,18 +153,27 @@ A **ordem** de uma EDP é a maior ordem de derivação presente.
 ### 3. Quanto à Homogeneidade
 
 #### Homogênea:
-Todos os termos dependem de $u$ ou suas derivadas.
-
-$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
+> [!note] 
+> Todos os termos dependem de $u$ ou suas derivadas. _"Quando o termo que não contém a variável dependente é identicamente nula"_
+> $$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
+> 
 
 #### Não-homogênea:
-Existe termo independente de $u$.
-
-$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = f(x,y)$$
+> [!note]
+> Existe termo independente de $u$.
+>
+> $$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = f(x,y)$$
+> 
 
 ---
 
 ## 🔥 As 3 EDPs Clássicas da Física
+
+> [!note] 
+> Normalmente veremos as 3 clássicas de EPDs
+>  - Parabólicas
+>  - Hiperbólicas
+>  - Elípticas
 
 ### 1. Equação do Calor (Parabólica)
 
