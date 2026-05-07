@@ -10,7 +10,6 @@
 > 🔗 **Notas relacionadas:** [[Introdução à Teoria dos Números]], [[História da Teoria dos Números]]
 
 ---
-
 ## 1. Fundamentos: Os Números Naturais
 
 > [!definition] **Axiomas de Peano**
@@ -26,6 +25,8 @@
 > Onde $S(n) = n+1$
 
 🔗 **Notas relacionadas:** [[Princípio da Indução Finita]], [[Construção dos Números Naturais]], [[Conjuntos Dedekind-infinitos]]
+
+> [!note] [[Valor Absoluto e Ordem]]
 
 ---
 

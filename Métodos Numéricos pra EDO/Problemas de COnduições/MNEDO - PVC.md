@@ -20,6 +20,10 @@ $$ y''(x) = -y(x) \quad \text{com} \quad y(0) = 0,\; y(\pi/2) = 1 $$
 > [!note] **Solução analítica**
 > $$ y(x) = \sin(x) $$
 > (Verifique: $\sin''(x) = -\sin(x)$, $\sin(0)=0$, $\sin(\pi/2)=1$)
+> Normalmente divididas em:
+> - [[MNEDO - Condições de DIrichlet]]
+> - [[MNEDO - Condições de Neumman]]
+
 
 ---
 
