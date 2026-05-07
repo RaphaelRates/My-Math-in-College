@@ -225,11 +225,13 @@ $$A \frac{\partial^2 u}{\partial x^2} + B \frac{\partial^2 u}{\partial x \partia
 ### Discriminante:
 $$\Delta = B^2 - 4AC$$
 
-| Tipo | Condição | Exemplo |
-|------|----------|---------|
-| **Elíptica** | $\Delta < 0$ | Laplace, Poisson |
-| **Parabólica** | $\Delta = 0$ | Calor |
-| **Hiperbólica** | $\Delta > 0$ | Onda |
+| Tipo            | Condição     | Exemplo          |
+| --------------- | ------------ | ---------------- |
+| **Elíptica**    | $\Delta < 0$ | Laplace, Poisson |
+| **Parabólica**  | $\Delta = 0$ | Calor            |
+| **Hiperbólica** | $\Delta > 0$ | Onda             |
+| **Homogênea**   | $G(x,y)=0$   | Qualquer         |
+
 
 ---
 
@@ -358,9 +360,9 @@ plt.grid(True)
 plt.show()
 
 
+```
 
-
-
-
-
-
+## Cronograma
+### Essencial
+ - [[EDP - Linearidade]]
+### 1° Ordem
