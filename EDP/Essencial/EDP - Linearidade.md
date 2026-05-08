@@ -1,3 +1,4 @@
+
 > [!note] Linearidade
 > Supondo
 > $$  \sum_{i,j} D_{ij}(x), D_i D_j u + \sum_j B_j(x), D_j u + c(x)u + d(x) = 0$$
