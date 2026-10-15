@@ -1,5 +1,5 @@
 
-[[MNEDO - Diferenças Finitas]]
+[[Métodos Numéricos pra EDO/MNEDO - Diferenças Finitas|MNEDO - Diferenças Finitas]]
 
-[[MNEDO - PVI]]
-[[MNEDO - PVC]]
+[[Métodos Numéricos pra EDO/Problemas de COnduições/MNEDO - PVI|MNEDO - PVI]]
+[[Métodos Numéricos pra EDO/Problemas de COnduições/MNEDO - PVC|MNEDO - PVC]]
