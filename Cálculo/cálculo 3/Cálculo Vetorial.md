@@ -1,4 +1,38 @@
-# Cálculo Vetorial
+---
+tipo: sumario
+materia: Cálculo Vetorial
+aliases:
+  - calculo3
+tags:
+  - matematica
+  - calculo
+  - sumario
+---
+
+# 🧭 Cálculo Vetorial
+
+> [!abstract] Cálculo Vetorial
+> Curvas, campos vetoriais, operadores diferenciais e integrais de linha e superfície.
+
+> [!tip] Como usar este sumário
+> Siga as unidades em ordem. Expanda os blocos para consultar os tópicos e abra os links para acessar as notas do cofre.
+
+## 🧭 Navegação rápida
+
+| Unidade | Acesso |
+| --- | --- |
+| 01 | [[#1. Funções Vetoriais\|Funções Vetoriais]] |
+| 02 | [[#2. Curvas no Espaço\|Curvas no Espaço]] |
+| 03 | [[#3. Campos Escalares\|Campos Escalares]] |
+| 04 | [[#4. Campos Vetoriais\|Campos Vetoriais]] |
+| 05 | [[#5. Operadores Diferenciais\|Operadores Diferenciais]] |
+| 06 | [[#6. Integrais de Linha\|Integrais de Linha]] |
+| 07 | [[#7. Integrais de Superfície\|Integrais de Superfície]] |
+| 08 | [[#8. Teoremas Fundamentais\|Teoremas Fundamentais]] |
+| 09 | [[#9. Coordenadas Curvilíneas\|Coordenadas Curvilíneas]] |
+
+---
+
 
 ## Visão Geral
 
@@ -10,98 +44,134 @@ O Cálculo Vetorial é o ramo da matemática que estende os conceitos do cálcul
 
 ### 1. Funções Vetoriais
 
-- [[Funções Vetoriais de Uma Variável]]
-- [[Limite de Funções Vetoriais]]
-- [[Continuidade de Funções Vetoriais]]
-- [[Derivada de Funções Vetoriais]]
-- [[Regras de Derivação Vetorial]]
-- [[Vetor Tangente]]
-- [[Vetor Velocidade e Aceleração]]
+> [!note]- 1. Funções Vetoriais
+>
+>
+> - [[Funções Vetoriais de Uma Variável]]
+> - [[Limite de Funções Vetoriais]]
+> - [[Continuidade de Funções Vetoriais]]
+> - [[Derivada de Funções Vetoriais]]
+> - [[Regras de Derivação Vetorial]]
+> - [[Vetor Tangente]]
+> - [[Vetor Velocidade e Aceleração]]
+>
 
 ### 2. Curvas no Espaço
 
-- [[Curvas Parametrizadas]]
-- [[Comprimento de Arco]]
-- [[Parametrização por Comprimento de Arco]]
-- [[Curvatura]]
-- [[Vetor Normal Principal]]
-- [[Vetor Binormal]]
-- [[Triedro de Frenet]]
-- [[Fórmulas de Frenet-Serret]]
-- [[Torção]]
-- [[Círculo Osculador]]
+> [!note]- 2. Curvas no Espaço
+>
+>
+> - [[Curvas Parametrizadas]]
+> - [[Comprimento de Arco]]
+> - [[Parametrização por Comprimento de Arco]]
+> - [[Curvatura]]
+> - [[Vetor Normal Principal]]
+> - [[Vetor Binormal]]
+> - [[Triedro de Frenet]]
+> - [[Fórmulas de Frenet-Serret]]
+> - [[Torção]]
+> - [[Círculo Osculador]]
+>
 
 ### 3. Campos Escalares
 
-- [[Campos Escalares]]
-- [[Curvas de Nível]]
-- [[Superfícies de Nível]]
-- [[Limite de Campos Escalares]]
-- [[Continuidade de Campos Escalares]]
-- [[Derivadas Parciais]]
-- [[Gradiente]]
-- [[Interpretação Geométrica do Gradiente]]
-- [[Derivada Direcional]]
-- [[Plano Tangente a Superfícies]]
+> [!note]- 3. Campos Escalares
+>
+>
+> - [[Campos Escalares]]
+> - [[Curvas de Nível]]
+> - [[Superfícies de Nível]]
+> - [[Limite de Campos Escalares]]
+> - [[Continuidade de Campos Escalares]]
+> - [[Derivadas Parciais]]
+> - [[Gradiente]]
+> - [[Interpretação Geométrica do Gradiente]]
+> - [[Derivada Direcional]]
+> - [[Plano Tangente a Superfícies]]
+>
 
 ### 4. Campos Vetoriais
 
-- [[Campos Vetoriais]]
-- [[Visualização de Campos Vetoriais]]
-- [[Linhas de Campo]]
-- [[Campos Conservativos]]
-- [[Potencial Escalar]]
-- [[Campos Irrotacionais]]
-- [[Campos Solenoidais]]
+> [!note]- 4. Campos Vetoriais
+>
+>
+> - [[Campos Vetoriais]]
+> - [[Visualização de Campos Vetoriais]]
+> - [[Linhas de Campo]]
+> - [[Campos Conservativos]]
+> - [[Potencial Escalar]]
+> - [[Campos Irrotacionais]]
+> - [[Campos Solenoidais]]
+>
 
 ### 5. Operadores Diferenciais
 
-- [[Operador Nabla]]
-- [[Gradiente de Campos Escalares]]
-- [[Divergente de Campos Vetoriais]]
-- [[Rotacional de Campos Vetoriais]]
-- [[Laplaciano]]
-- [[Propriedades dos Operadores]]
-- [[Identidades Vetoriais]]
+> [!note]- 5. Operadores Diferenciais
+>
+>
+> - [[Operador Nabla]]
+> - [[Gradiente de Campos Escalares]]
+> - [[Divergente de Campos Vetoriais]]
+> - [[Rotacional de Campos Vetoriais]]
+> - [[Laplaciano]]
+> - [[Propriedades dos Operadores]]
+> - [[Identidades Vetoriais]]
+>
 
 ### 6. Integrais de Linha
 
-- [[Integrais de Linha de Campos Escalares]]
-- [[Integrais de Linha de Campos Vetoriais]]
-- [[Trabalho Realizado por uma Força]]
-- [[Integral de Linha Independente do Caminho]]
-- [[Teorema Fundamental para Integrais de Linha]]
-- [[Campos Conservativos e Potenciais]]
-- [[Teste para Campos Conservativos]]
+> [!note]- 6. Integrais de Linha
+>
+>
+> - [[Integrais de Linha de Campos Escalares]]
+> - [[Integrais de Linha de Campos Vetoriais]]
+> - [[Trabalho Realizado por uma Força]]
+> - [[Integral de Linha Independente do Caminho]]
+> - [[Teorema Fundamental para Integrais de Linha]]
+> - [[Campos Conservativos e Potenciais]]
+> - [[Teste para Campos Conservativos]]
+>
 
 ### 7. Integrais de Superfície
 
-- [[Superfícies Parametrizadas]]
-- [[Área de Superfícies]]
-- [[Integrais de Superfície de Campos Escalares]]
-- [[Orientação de Superfícies]]
-- [[Integrais de Superfície de Campos Vetoriais]]
-- [[Fluxo através de uma Superfície]]
+> [!note]- 7. Integrais de Superfície
+>
+>
+> - [[Superfícies Parametrizadas]]
+> - [[Área de Superfícies]]
+> - [[Integrais de Superfície de Campos Escalares]]
+> - [[Orientação de Superfícies]]
+> - [[Integrais de Superfície de Campos Vetoriais]]
+> - [[Fluxo através de uma Superfície]]
+>
 
 ### 8. Teoremas Fundamentais
 
-- [[Teorema de Green]]
-- [[Aplicações do Teorema de Green]]
-- [[Teorema da Divergência (Gauss)]]
-- [[Aplicações do Teorema da Divergência]]
-- [[Teorema de Stokes]]
-- [[Aplicações do Teorema de Stokes]]
-- [[Relação entre os Teoremas Fundamentais]]
+> [!note]- 8. Teoremas Fundamentais
+>
+>
+> - [[Teorema de Green]]
+> - [[Aplicações do Teorema de Green]]
+> - [[Teorema da Divergência (Gauss)]]
+> - [[Aplicações do Teorema da Divergência]]
+> - [[Teorema de Stokes]]
+> - [[Aplicações do Teorema de Stokes]]
+> - [[Relação entre os Teoremas Fundamentais]]
+>
 
 ### 9. Coordenadas Curvilíneas
 
-- [[Coordenadas Cilíndricas]]
-- [[Coordenadas Esféricas]]
-- [[Transformações de Coordenadas]]
-- [[Gradiente em Coordenadas Curvilíneas]]
-- [[Divergente em Coordenadas Curvilíneas]]
-- [[Rotacional em Coordenadas Curvilíneas]]
-- [[Laplaciano em Coordenadas Curvilíneas]]
+> [!note]- 9. Coordenadas Curvilíneas
+>
+>
+> - [[Coordenadas Cilíndricas]]
+> - [[Coordenadas Esféricas]]
+> - [[Transformações de Coordenadas]]
+> - [[Gradiente em Coordenadas Curvilíneas]]
+> - [[Divergente em Coordenadas Curvilíneas]]
+> - [[Rotacional em Coordenadas Curvilíneas]]
+> - [[Laplaciano em Coordenadas Curvilíneas]]
+>
 
 ---
 
@@ -109,27 +179,39 @@ O Cálculo Vetorial é o ramo da matemática que estende os conceitos do cálcul
 
 ### Teoremas Principais
 
-- [[Teorema Fundamental do Cálculo Vetorial]]
-- [[Teorema de Green no Plano]]
-- [[Teorema da Divergência de Gauss]]
-- [[Teorema de Stokes Clássico]]
-- [[Teorema de Helmholtz]]
+> [!note]- Teoremas Principais
+>
+>
+> - [[Teorema Fundamental do Cálculo Vetorial]]
+> - [[Teorema de Green no Plano]]
+> - [[Teorema da Divergência de Gauss]]
+> - [[Teorema de Stokes Clássico]]
+> - [[Teorema de Helmholtz]]
+>
 
 ### Identidades Importantes
 
-- [[Identidades do Produto Escalar]]
-- [[Identidades do Produto Vetorial]]
-- [[Identidades do Gradiente]]
-- [[Identidades do Divergente]]
-- [[Identidades do Rotacional]]
-- [[Identidades do Laplaciano]]
+> [!note]- Identidades Importantes
+>
+>
+> - [[Identidades do Produto Escalar]]
+> - [[Identidades do Produto Vetorial]]
+> - [[Identidades do Gradiente]]
+> - [[Identidades do Divergente]]
+> - [[Identidades do Rotacional]]
+> - [[Identidades do Laplaciano]]
+>
 
 ### Fórmulas Essenciais
 
-- [[Fórmulas de Diferenciação Vetorial]]
-- [[Fórmulas de Integração Vetorial]]
-- [[Transformações de Coordenadas]]
-- [[Operadores em Diferentes Sistemas]]
+> [!note]- Fórmulas Essenciais
+>
+>
+> - [[Fórmulas de Diferenciação Vetorial]]
+> - [[Fórmulas de Integração Vetorial]]
+> - [[Transformações de Coordenadas]]
+> - [[Operadores em Diferentes Sistemas]]
+>
 
 ---
 
@@ -137,25 +219,37 @@ O Cálculo Vetorial é o ramo da matemática que estende os conceitos do cálcul
 
 ### Mecânica
 
-- [[Cinemática Vetorial]]
-- [[Dinâmica de Partículas]]
-- [[Movimento Circular]]
-- [[Movimento em Curvas]]
-- [[Forças Conservativas]]
+> [!note]- Mecânica
+>
+>
+> - [[Cinemática Vetorial]]
+> - [[Dinâmica de Partículas]]
+> - [[Movimento Circular]]
+> - [[Movimento em Curvas]]
+> - [[Forças Conservativas]]
+>
 
 ### Mecânica dos Fluidos
 
-- [[Fluxo de Fluidos]]
-- [[Equação da Continuidade]]
-- [[Teorema de Bernoulli]]
-- [[Circulação e Vorticidade]]
+> [!note]- Mecânica dos Fluidos
+>
+>
+> - [[Fluxo de Fluidos]]
+> - [[Equação da Continuidade]]
+> - [[Teorema de Bernoulli]]
+> - [[Circulação e Vorticidade]]
+>
 
 ### Termodinâmica
 
-- [[Campos de Temperatura]]
-- [[Fluxo de Calor]]
-- [[Condução Térmica]]
-- [[Equação do Calor]]
+> [!note]- Termodinâmica
+>
+>
+> - [[Campos de Temperatura]]
+> - [[Fluxo de Calor]]
+> - [[Condução Térmica]]
+> - [[Equação do Calor]]
+>
 
 ---
 

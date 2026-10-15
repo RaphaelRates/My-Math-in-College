@@ -1,14 +1,42 @@
-# 📐 Cálculo 1 - Differential and Integral Calculus
+---
+tipo: sumario
+materia: Cálculo 1
+aliases:
+  - calculo1
+tags:
+  - matematica
+  - calculo
+  - sumario
+---
+
+# 📐 Cálculo 1
 
 > [!quote] _"O cálculo é a música da razão."_ - James Joseph Sylvester
 
 ---
 
-## 🎯 **Visão Geral**
+> [!abstract] Cálculo diferencial e integral
+> Funções de uma variável real · Limites → Derivadas → Integrais
+
+> [!tip] Como usar este sumário
+> Siga as unidades em ordem. Expanda os blocos para consultar os tópicos e abra os links para acessar as notas.
+
+## 🧭 Navegação rápida
+
+| Unidade | Acesso |
+| --- | --- |
+| 01 · Fundamentos | [[#1. Funções e Limites\|Funções e limites]] |
+| 02 · Variação | [[#2. Derivadas\|Derivadas]] |
+| 03 · Acumulação | [[#3. Integrais\|Integrais]] |
+| 04 · Aprofundamento | [[#4. Tópicos Complementares\|Complementos]] |
+
+---
+
+## 🎯 Visão Geral
 
 **Cálculo 1** é a disciplina fundamental que introduz os conceitos de **limites**, **derivadas** e **integrais** para funções de uma variável real. É a base matemática essencial para engenharias, física, economia e ciências em geral.
 
-### **Objetivos de Aprendizagem:**
+### Objetivos de Aprendizagem:
 
 - Compreender rigorosamente o conceito de limite
 - Dominar técnicas de derivação e suas aplicações
@@ -17,228 +45,262 @@
 
 ---
 
-## 📚 **Conteúdo Programático Completo**
+## 📚 Conteúdo Programático Completo
 
-### **1. Funções e Limites**
+### 1. Funções e Limites
 
-#### **1.1 Revisão de Funções**
+#### 1.1 Revisão de Funções
 
-- [[Definição de Função]]
-- [[Domínio e Imagem]]
-- [[Funções Elementares]]
-    - Polinomiais
-    - Racionais
-    - Exponenciais
-    - Logarítmicas
-    - Trigonométricas
-    - Trigonométricas Inversas
-- [[Transformações de Funções]]
-- [[Composição de Funções]]
-- [[Função Inversa]]
+> [!note]- 1.1 Revisão de Funções
+> - [[Definição de Função]]
+> - [[Domínio e Imagem]]
+> - [[Funções Elementares]]
+>     - Polinomiais
+>     - Racionais
+>     - Exponenciais
+>     - Logarítmicas
+>     - Trigonométricas
+>     - Trigonométricas Inversas
+> - [[Transformações de Funções]]
+> - [[Composição de Funções]]
+> - [[Função Inversa]]
+>
 
-#### **1.2 Limites**
+#### 1.2 Limites
 
-- [[Conceito Intuitivo de Limite]]
-- [[Definição Formal de Limite (ε-δ)]]
-- [[Propriedades Operatórias dos Limites]]
-- [[Cálculo/Cálculo 1/limite/Limites Laterais]]
-- [[Teoremas sobre Limites]]
-    - Teorema do Confronto
-    - Teorema da Conservação do Sinal
-- [[Limites no Infinito]]
-- [[Cálculo/Cálculo 1/limite/Limites Infinitos]]
-- [[Assíntotas]]
-    - Verticais
-    - Horizontais
-    - Oblíquas
-- [[Formas Indeterminadas]]
-- [[Regra de L'Hôpital]]
+> [!note]- 1.2 Limites
+> - [[Conceito Intuitivo de Limite]]
+> - [[Definição Formal de Limite (ε-δ)]]
+> - [[Propriedades Operatórias dos Limites]]
+> - [[Cálculo/Cálculo 1/limite/Limites Laterais]]
+> - [[Teoremas sobre Limites]]
+>     - Teorema do Confronto
+>     - Teorema da Conservação do Sinal
+> - [[Limites no Infinito]]
+> - [[Cálculo/Cálculo 1/limite/Limites Infinitos]]
+> - [[Assíntotas]]
+>     - Verticais
+>     - Horizontais
+>     - Oblíquas
+> - [[Formas Indeterminadas]]
+> - [[Regra de L'Hôpital]]
+>
 
-#### **1.3 Continuidade**
+#### 1.3 Continuidade
 
-- [[Definição de Continuidade]]
-- [[Tipos de Descontinuidade]]
-- [[Teoremas sobre Funções Contínuas]]
-    - Teorema do Valor Intermediário
-    - Teorema de Weierstrass
-    - Teorema do Valor Extremo
-
----
-
-### **2. Derivadas**
-
-#### **2.1 Conceito de Derivada**
-
-- [[Definição de Derivada]]
-- [[Interpretação Geométrica da Derivada]]
-- [[Interpretação Física da Derivada]]
-- [[Equação da Reta Tangente]]
-- [[Derivabilidade e Continuidade]]
-
-#### **2.2 Regras de Derivação**
-
-- [[Regra da Constante]]
-- [[Regra da Potência]]
-- [[Regra da Soma]]
-- [[Regra do Produto]]
-- [[Regra do Quociente]]
-- [[Regra da Cadeia]]
-- [[Derivação Implícita]]
-- [[Derivação Logarítmica]]
-
-#### **2.3 Derivadas de Funções Especiais**
-
-- [[Derivadas de Funções Trigonométricas]]
-- [[Derivadas de Funções Trigonométricas Inversas]]
-- [[Derivadas de Funções Exponenciais]]
-- [[Derivadas de Funções Logarítmicas]]
-- [[Derivadas de Funções Hiperbólicas]]
-
-#### **2.4 Aplicações da Derivada**
-
-- [[Taxa de Variação]]
-- [[Velocidade e Aceleração]]
-- [[Taxa Relacionada]]
-- [[Aproximação Linear e Diferenciais]]
-- [[Análise do Comportamento de Funções]]
-    - Crescimento e Decrescimento
-    - Concavidade
-    - Pontos de Inflexão
-- [[Máximos e Mínimos]]
-    - Teste da Primeira Derivada
-    - Teste da Segunda Derivada
-- [[Problemas de Otimização]]
-- [[Teorema do Valor Médio]]
-    - Teorema de Rolle
-    - Teorema do Valor Médio de Lagrange
+> [!note]- 1.3 Continuidade
+> - [[Definição de Continuidade]]
+> - [[Tipos de Descontinuidade]]
+> - [[Teoremas sobre Funções Contínuas]]
+>     - Teorema do Valor Intermediário
+>     - Teorema de Weierstrass
+>     - Teorema do Valor Extremo
+>
 
 ---
 
-### **3. Integrais**
+### 2. Derivadas
 
-#### **3.1 Antiderivadas e Integral Indefinida**
+#### 2.1 Conceito de Derivada
 
-- [[Conceito de Antiderivada]]
-- [[Integral Indefinida]]
-- [[Propriedades da Integral Indefinida]]
-- [[Integrais Imediatas]]
-- [[Tabela de Integrais Básicas]]
+> [!note]- 2.1 Conceito de Derivada
+> - [[Definição de Derivada]]
+> - [[Interpretação Geométrica da Derivada]]
+> - [[Interpretação Física da Derivada]]
+> - [[Equação da Reta Tangente]]
+> - [[Derivabilidade e Continuidade]]
+>
 
-#### **3.2 Técnicas de Integração**
+#### 2.2 Regras de Derivação
 
-- [[Integração por Substituição]]
-- [[Integração por Partes]]
-- [[Integração de Funções Racionais]]
-    - Frações Parciais
-- [[Integração por Substituição Trigonométrica]]
-- [[Integração de Funções Trigonométricas]]
-- [[Integral de Funções Irracionais]]
+> [!note]- 2.2 Regras de Derivação
+> - [[Regra da Constante]]
+> - [[Regra da Potência]]
+> - [[Regra da Soma]]
+> - [[Regra do Produto]]
+> - [[Regra do Quociente]]
+> - [[Regra da Cadeia]]
+> - [[Derivação Implícita]]
+> - [[Derivação Logarítmica]]
+>
 
-#### **3.3 Integral Definida**
+#### 2.3 Derivadas de Funções Especiais
 
-- [[Somas de Riemann]]
-- [[Definição de Integral Definida]]
-- [[Propriedades da Integral Definida]]
-- [[Teorema Fundamental do Cálculo]]
-    - Primeira Parte
-    - Segunda Parte
-- [[Regra de Leibniz]]
+> [!note]- 2.3 Derivadas de Funções Especiais
+> - [[Derivadas de Funções Trigonométricas]]
+> - [[Derivadas de Funções Trigonométricas Inversas]]
+> - [[Derivadas de Funções Exponenciais]]
+> - [[Derivadas de Funções Logarítmicas]]
+> - [[Derivadas de Funções Hiperbólicas]]
+>
 
-#### **3.4 Aplicações da Integral Definida**
+#### 2.4 Aplicações da Derivada
 
-- [[Cálculo de Áreas]]
-    - Entre curvas
-    - Área com sinal
-- [[Cálculo de Volumes]]
-    - Método dos Discos
-    - Método das Arruelas
-    - Método das Cascas Cilíndricas
-- [[Comprimento de Arco]]
-- [[Área de Superfície de Revolução]]
-- [[Trabalho]]
-- [[Momento e Centro de Massa]]
-- [[Pressão Hidrostática]]
-
----
-
-### **4. Tópicos Complementares**
-
-#### **4.1 Integrais Impróprias**
-
-- [[Integrais com Limites Infinitos]]
-- [[Integrais com Integrandos Descontínuos]]
-- [[Testes de Convergência para Integrais Impróprias]]
-
-#### **4.2 Sequências e Séries (Introdução)**
-
-- [[Sequências Numéricas]]
-- [[Séries Numéricas]]
-- [[Série Geométrica]]
-- [[Testes de Convergência Básicos]]
-
-#### **4.3 Polinômios de Taylor**
-
-- [[Polinômio de Taylor]]
-- [[Série de Taylor]]
-- [[Série de MacLaurin]]
-- [[Aplicações dos Polinômios de Taylor]]
+> [!note]- 2.4 Aplicações da Derivada
+> - [[Taxa de Variação]]
+> - [[Velocidade e Aceleração]]
+> - [[Taxa Relacionada]]
+> - [[Aproximação Linear e Diferenciais]]
+> - [[Análise do Comportamento de Funções]]
+>     - Crescimento e Decrescimento
+>     - Concavidade
+>     - Pontos de Inflexão
+> - [[Máximos e Mínimos]]
+>     - Teste da Primeira Derivada
+>     - Teste da Segunda Derivada
+> - [[Problemas de Otimização]]
+> - [[Teorema do Valor Médio]]
+>     - Teorema de Rolle
+>     - Teorema do Valor Médio de Lagrange
+>
 
 ---
 
-## 📖 **Bibliografia Recomendada**
+### 3. Integrais
 
-### **📚 Livros Clássicos**
+#### 3.1 Antiderivadas e Integral Indefinida
 
-#### **Nível Básico/Intermediário:**
+> [!note]- 3.1 Antiderivadas e Integral Indefinida
+> - [[Conceito de Antiderivada]]
+> - [[Integral Indefinida]]
+> - [[Propriedades da Integral Indefinida]]
+> - [[Integrais Imediatas]]
+> - [[Tabela de Integrais Básicas]]
+>
 
-- **Stewart, James** - _Cálculo Vol. 1_
-    
-    - Didático, com muitos exemplos e exercícios
-    - Excelente para iniciantes
-    - Foco em aplicações práticas
-- **Anton, Howard** - _Cálculo: Um Novo Horizonte Vol. 1_
-    
-    - Abordagem moderna e clara
-    - Bom equilíbrio teoria-prática
-    - Exercícios graduados
-- **Leithold, Louis** - _O Cálculo com Geometria Analítica Vol. 1_
-    
-    - Clássico brasileiro
-    - Rigor matemático adequado
-    - Exercícios desafiadores
+#### 3.2 Técnicas de Integração
 
-#### **Nível Intermediário/Avançado:**
+> [!note]- 3.2 Técnicas de Integração
+> - [[Integração por Substituição]]
+> - [[Integração por Partes]]
+> - [[Integração de Funções Racionais]]
+>     - Frações Parciais
+> - [[Integração por Substituição Trigonométrica]]
+> - [[Integração de Funções Trigonométricas]]
+> - [[Integral de Funções Irracionais]]
+>
 
-- **Spivak, Michael** - _Calculus_
-    
-    - Abordagem rigorosa
-    - Ênfase em demonstrações
-    - Para estudantes com boa base matemática
-- **Courant, Richard** - _Differential and Integral Calculus Vol. 1_
-    
-    - Clássico mundial
-    - Rigor matemático elevado
-    - Conexões com outras áreas
+#### 3.3 Integral Definida
 
-#### **Bibliografia Nacional:**
+> [!note]- 3.3 Integral Definida
+> - [[Somas de Riemann]]
+> - [[Definição de Integral Definida]]
+> - [[Propriedades da Integral Definida]]
+> - [[Teorema Fundamental do Cálculo]]
+>     - Primeira Parte
+>     - Segunda Parte
+> - [[Regra de Leibniz]]
+>
 
-- **Guidorizzi, Hamilton** - _Um Curso de Cálculo Vol. 1_
-    
-    - Adaptado à realidade brasileira
-    - Teoria bem fundamentada
-    - Exercícios contextualizados
-- **Flemming, Diva** - _Cálculo A_
-    
-    - Linguagem acessível
-    - Muitos exemplos práticos
-    - Bom para engenharias
-- **Ávila, Geraldo** - _Cálculo das Funções de Uma Variável Vol. 1_
-    
-    - Rigor matemático brasileiro
-    - Demonstrações completas
-    - Para cursos de matemática
+#### 3.4 Aplicações da Integral Definida
 
-### **📱 Recursos Digitais:**
+> [!note]- 3.4 Aplicações da Integral Definida
+> - [[Cálculo de Áreas]]
+>     - Entre curvas
+>     - Área com sinal
+> - [[Cálculo de Volumes]]
+>     - Método dos Discos
+>     - Método das Arruelas
+>     - Método das Cascas Cilíndricas
+> - [[Comprimento de Arco]]
+> - [[Área de Superfície de Revolução]]
+> - [[Trabalho]]
+> - [[Momento e Centro de Massa]]
+> - [[Pressão Hidrostática]]
+>
+
+---
+
+### 4. Tópicos Complementares
+
+#### 4.1 Integrais Impróprias
+
+> [!note]- 4.1 Integrais Impróprias
+> - [[Integrais com Limites Infinitos]]
+> - [[Integrais com Integrandos Descontínuos]]
+> - [[Testes de Convergência para Integrais Impróprias]]
+>
+
+#### 4.2 Sequências e Séries (Introdução)
+
+> [!note]- 4.2 Sequências e Séries (Introdução)
+> - [[Sequências Numéricas]]
+> - [[Séries Numéricas]]
+> - [[Série Geométrica]]
+> - [[Testes de Convergência Básicos]]
+>
+
+#### 4.3 Polinômios de Taylor
+
+> [!note]- 4.3 Polinômios de Taylor
+> - [[Polinômio de Taylor]]
+> - [[Série de Taylor]]
+> - [[Série de MacLaurin]]
+> - [[Aplicações dos Polinômios de Taylor]]
+>
+
+---
+
+## 📖 Bibliografia Recomendada
+
+### 📚 Livros Clássicos
+
+#### Nível Básico/Intermediário:
+
+> [!note]- Nível Básico/Intermediário
+> - **Stewart, James** - _Cálculo Vol. 1_
+>
+>     - Didático, com muitos exemplos e exercícios
+>     - Excelente para iniciantes
+>     - Foco em aplicações práticas
+> - **Anton, Howard** - _Cálculo: Um Novo Horizonte Vol. 1_
+>
+>     - Abordagem moderna e clara
+>     - Bom equilíbrio teoria-prática
+>     - Exercícios graduados
+> - **Leithold, Louis** - _O Cálculo com Geometria Analítica Vol. 1_
+>
+>     - Clássico brasileiro
+>     - Rigor matemático adequado
+>     - Exercícios desafiadores
+>
+
+#### Nível Intermediário/Avançado:
+
+> [!note]- Nível Intermediário/Avançado
+> - **Spivak, Michael** - _Calculus_
+>
+>     - Abordagem rigorosa
+>     - Ênfase em demonstrações
+>     - Para estudantes com boa base matemática
+> - **Courant, Richard** - _Differential and Integral Calculus Vol. 1_
+>
+>     - Clássico mundial
+>     - Rigor matemático elevado
+>     - Conexões com outras áreas
+>
+
+#### Bibliografia Nacional:
+
+> [!note]- Bibliografia Nacional
+> - **Guidorizzi, Hamilton** - _Um Curso de Cálculo Vol. 1_
+>
+>     - Adaptado à realidade brasileira
+>     - Teoria bem fundamentada
+>     - Exercícios contextualizados
+> - **Flemming, Diva** - _Cálculo A_
+>
+>     - Linguagem acessível
+>     - Muitos exemplos práticos
+>     - Bom para engenharias
+> - **Ávila, Geraldo** - _Cálculo das Funções de Uma Variável Vol. 1_
+>
+>     - Rigor matemático brasileiro
+>     - Demonstrações completas
+>     - Para cursos de matemática
+>
+
+### 📱 Recursos Digitais:
 
 - **Khan Academy** - Curso gratuito online
 - **MIT OpenCourseWare** - Materiais do MIT
@@ -246,121 +308,146 @@
 
 ---
 
-## 🌍 **Aplicações Práticas**
+## 🌍 Aplicações Práticas
 
-### **🔬 Ciências Naturais**
+### 🔬 Ciências Naturais
 
-#### **Física:**
+#### Física:
 
-- **Mecânica**: Posição, velocidade, aceleração
-- **Dinâmica**: Leis de Newton, trabalho, energia
-- **Eletricidade**: Carga, corrente, campo elétrico
-- **Termodinâmica**: Taxa de transferência de calor
-- **Ótica**: Propagação da luz, reflexão
+> [!note]- Física
+> - **Mecânica**: Posição, velocidade, aceleração
+> - **Dinâmica**: Leis de Newton, trabalho, energia
+> - **Eletricidade**: Carga, corrente, campo elétrico
+> - **Termodinâmica**: Taxa de transferência de calor
+> - **Ótica**: Propagação da luz, reflexão
+>
 
-#### **Química:**
+#### Química:
 
-- **Cinética Química**: Taxa de reação
-- **Equilíbrio**: Concentrações em função do tempo
-- **Termodinâmica**: Variação de entalpia e entropia
+> [!note]- Química
+> - **Cinética Química**: Taxa de reação
+> - **Equilíbrio**: Concentrações em função do tempo
+> - **Termodinâmica**: Variação de entalpia e entropia
+>
 
-#### **Biologia:**
+#### Biologia:
 
-- **Crescimento Populacional**: Modelos exponenciais
-- **Farmacocinética**: Absorção e eliminação de medicamentos
-- **Epidemiologia**: Propagação de doenças
-- **Ecologia**: Dinâmica predador-presa
+> [!note]- Biologia
+> - **Crescimento Populacional**: Modelos exponenciais
+> - **Farmacocinética**: Absorção e eliminação de medicamentos
+> - **Epidemiologia**: Propagação de doenças
+> - **Ecologia**: Dinâmica predador-presa
+>
 
-### **🏗️ Engenharias**
+### 🏗️ Engenharias
 
-#### **Engenharia Civil:**
+#### Engenharia Civil:
 
-- **Estruturas**: Análise de tensões e deformações
-- **Hidráulica**: Escoamento de fluidos
-- **Geotecnia**: Estabilidade de taludes
-- **Materiais**: Curvas de tensão-deformação
+> [!note]- Engenharia Civil
+> - **Estruturas**: Análise de tensões e deformações
+> - **Hidráulica**: Escoamento de fluidos
+> - **Geotecnia**: Estabilidade de taludes
+> - **Materiais**: Curvas de tensão-deformação
+>
 
-#### **Engenharia Elétrica:**
+#### Engenharia Elétrica:
 
-- **Circuitos**: Análise de corrente e tensão
-- **Sinais**: Processamento e filtragem
-- **Controle**: Sistemas de controle automático
-- **Telecomunicações**: Modulação de sinais
+> [!note]- Engenharia Elétrica
+> - **Circuitos**: Análise de corrente e tensão
+> - **Sinais**: Processamento e filtragem
+> - **Controle**: Sistemas de controle automático
+> - **Telecomunicações**: Modulação de sinais
+>
 
-#### **Engenharia Mecânica:**
+#### Engenharia Mecânica:
 
-- **Dinâmica**: Movimento de corpos rígidos
-- **Transferência de Calor**: Condução, convecção
-- **Fluidos**: Escoamento laminar e turbulento
-- **Vibrações**: Análise modal
+> [!note]- Engenharia Mecânica
+> - **Dinâmica**: Movimento de corpos rígidos
+> - **Transferência de Calor**: Condução, convecção
+> - **Fluidos**: Escoamento laminar e turbulento
+> - **Vibrações**: Análise modal
+>
 
-### **💰 Economia e Finanças**
+### 💰 Economia e Finanças
 
-#### **Microeconomia:**
+#### Microeconomia:
 
-- **Elasticidade**: Sensibilidade da demanda
-- **Otimização**: Maximização de lucro/utilidade
-- **Custo Marginal**: Análise incremental
-- **Receita Marginal**: Otimização de preços
+> [!note]- Microeconomia
+> - **Elasticidade**: Sensibilidade da demanda
+> - **Otimização**: Maximização de lucro/utilidade
+> - **Custo Marginal**: Análise incremental
+> - **Receita Marginal**: Otimização de preços
+>
 
-#### **Finanças:**
+#### Finanças:
 
-- **Juros Compostos**: Crescimento exponencial
-- **Valor Presente**: Desconto de fluxos futuros
-- **Risco**: Volatilidade de ativos
-- **Otimização de Portfólio**: Markowitz
+> [!note]- Finanças
+> - **Juros Compostos**: Crescimento exponencial
+> - **Valor Presente**: Desconto de fluxos futuros
+> - **Risco**: Volatilidade de ativos
+> - **Otimização de Portfólio**: Markowitz
+>
 
-### **💻 Ciência da Computação**
+### 💻 Ciência da Computação
 
-#### **Algoritmos:**
+#### Algoritmos:
 
-- **Complexidade**: Análise assintótica
-- **Otimização**: Programação matemática
-- **Processamento de Imagens**: Filtros e transformações
-- **Machine Learning**: Gradiente descendente
+> [!note]- Algoritmos
+> - **Complexidade**: Análise assintótica
+> - **Otimização**: Programação matemática
+> - **Processamento de Imagens**: Filtros e transformações
+> - **Machine Learning**: Gradiente descendente
+>
 
 ---
 
-## 💻 **Ferramentas Computacionais**
+## 💻 Ferramentas Computacionais
 
-### **🧮 Software Matemático**
+### 🧮 Software Matemático
 
-#### **Wolfram Mathematica:**
+#### Wolfram Mathematica:
 
-```mathematica
-(* Cálculo de derivada *)
-D[x^2 + Sin[x], x]
+> [!note]- Wolfram Mathematica
+> ```mathematica
+> (* Cálculo de derivada *)
+> D[x^2 + Sin[x], x]
+>
+> (* Cálculo de integral *)
+> Integrate[x^2 + Sin[x], x]
+>
+> (* Plotar função *)
+> Plot[x^2 + Sin[x], {x, -5, 5}]
+> ```
+>
 
-(* Cálculo de integral *)
-Integrate[x^2 + Sin[x], x]
+#### MATLAB:
 
-(* Plotar função *)
-Plot[x^2 + Sin[x], {x, -5, 5}]
-```
+> [!note]- MATLAB
+> ```matlab
+> % Definir função simbólica
+> syms x
+> f = x^2 + sin(x);
+>
+> % Calcular derivada
+> df = diff(f, x)
+>
+> % Calcular integral
+> int_f = int(f, x)
+>
+> % Plotar
+> fplot(f, [-5, 5])
+> ```
+>
 
-#### **MATLAB:**
+#### Python (SymPy):
 
-```matlab
-% Definir função simbólica
-syms x
-f = x^2 + sin(x);
-
-% Calcular derivada
-df = diff(f, x)
-
-% Calcular integral
-int_f = int(f, x)
-
-% Plotar
-fplot(f, [-5, 5])
-```
-
-#### **Python (SymPy):**
-
-```python
-import sympy as sp
-import numpy as np
-import matplotlib.pyplot as plt
+> [!note]- Python (SymPy)
+> ```python
+> import sympy as sp
+> import numpy as np
+> import matplotlib.pyplot as plt
+> '''
+>
 
 # Definir variável simbólica
 x = sp.Symbol('x')
@@ -376,30 +463,36 @@ int_f = sp.integrate(f, x)
 sp.plot(f, (x, -5, 5))
 ```
 
-### **🌐 Ferramentas Online**
+### 🌐 Ferramentas Online
 
-#### **GeoGebra:**
+#### GeoGebra:
 
-- Interface gráfica intuitiva
-- Cálculos simbólicos básicos
-- Visualizações interativas
-- Gratuito e multiplataforma
+> [!note]- GeoGebra
+> - Interface gráfica intuitiva
+> - Cálculos simbólicos básicos
+> - Visualizações interativas
+> - Gratuito e multiplataforma
+>
 
-#### **Desmos Graphing Calculator:**
+#### Desmos Graphing Calculator:
 
-- Plotagem de funções online
-- Animações interativas
-- Regressões e ajustes
-- Gratuito via browser
+> [!note]- Desmos Graphing Calculator
+> - Plotagem de funções online
+> - Animações interativas
+> - Regressões e ajustes
+> - Gratuito via browser
+>
 
-#### **Wolfram Alpha:**
+#### Wolfram Alpha:
 
-- Resolução step-by-step
-- Cálculos complexos instantâneos
-- Visualizações automáticas
-- Versão gratuita limitada
+> [!note]- Wolfram Alpha
+> - Resolução step-by-step
+> - Cálculos complexos instantâneos
+> - Visualizações automáticas
+> - Versão gratuita limitada
+>
 
-### **📊 R para Análise Estatística:**
+### 📊 R para Análise Estatística:
 
 ```r
 # Definir função
@@ -416,17 +509,19 @@ df <- function(x) grad(f, x)
 integrate(f, -1, 1)
 ```
 
-### **💡 Dicas Computacionais:**
+### 💡 Dicas Computacionais:
 
-> [!tip] **Verificação de Resultados** Sempre use software para verificar seus cálculos manuais, especialmente em derivadas e integrais complexas.
+> [!tip] Verificação de resultados
+> Sempre use software para verificar seus cálculos manuais, especialmente em derivadas e integrais complexas.
 
-> [!warning] **Limitações Numéricas** Cuidado com aproximações numéricas em pontos de descontinuidade ou singularidades.
+> [!warning] Limitações numéricas
+> Cuidado com aproximações numéricas em pontos de descontinuidade ou singularidades.
 
 ---
 
-## 🎯 **Metodologia de Estudo**
+## 🎯 Metodologia de Estudo
 
-### **📅 Cronograma Sugerido (16 semanas):**
+### 📅 Cronograma Sugerido (16 semanas):
 
 |Semanas|Tópico|Horas/Semana|
 |---|---|---|
@@ -437,45 +532,51 @@ integrate(f, -1, 1)
 |13-15|Integrais e Técnicas|8-10h|
 |16|Aplicações da Integral|6-8h|
 
-### **🎯 Estratégias de Aprendizagem:**
+### 🎯 Estratégias de Aprendizagem:
 
-#### **Teoria (30%):**
+#### Teoria (30%):
 
-- Leitura ativa dos conceitos
-- Compreensão das demonstrações
-- Conexão entre tópicos
+> [!note]- Teoria (30%)
+> - Leitura ativa dos conceitos
+> - Compreensão das demonstrações
+> - Conexão entre tópicos
+>
 
-#### **Prática (50%):**
+#### Prática (50%):
 
-- Exercícios graduados
-- Problemas de aplicação
-- Uso de software
+> [!note]- Prática (50%)
+> - Exercícios graduados
+> - Problemas de aplicação
+> - Uso de software
+>
 
-#### **Aplicação (20%):**
+#### Aplicação (20%):
 
-- Projetos interdisciplinares
-- Problemas reais
-- Apresentações
+> [!note]- Aplicação (20%)
+> - Projetos interdisciplinares
+> - Problemas reais
+> - Apresentações
+>
 
 ---
 
-## 🔗 **Conexões com Outras Disciplinas**
+## 🔗 Conexões com Outras Disciplinas
 
-### **Pré-requisitos:**
+### Pré-requisitos:
 
 - [[Matemática Básica]]
 - [[Funções Elementares]]
 - [[Geometria Analítica]]
 - [[Trigonometria]]
 
-### **Disciplinas Relacionadas:**
+### Disciplinas Relacionadas:
 
 - [[Cálculo 2]] - Sequência natural
 - [[Física 1]] - Aplicações mecânicas
 - [[Álgebra Linear]] - Métodos matriciais
 - [[Equações Diferenciais]] - Modelagem
 
-### **Aplicações Futuras:**
+### Aplicações Futuras:
 
 - [[Análise Real]] - Fundamentação teórica
 - [[Cálculo Numérico]] - Métodos computacionais
@@ -484,7 +585,7 @@ integrate(f, -1, 1)
 
 ---
 
-## 💡 **Dicas para o Sucesso**
+## 💡 Dicas para o Sucesso
 
 > [!success] **Estratégias Comprovadas**
 > 
