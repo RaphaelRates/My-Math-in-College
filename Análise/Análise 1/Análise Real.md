@@ -1,28 +1,65 @@
+---
+tipo: sumario
+materia: Análise Real
+tags:
+  - matematica
+  - sumario
+  - analise
+  - analise-real
+  - analise1
+---
+
+# 📚 Análise Real
+
+> [!abstract] Visão geral
+> Análise 1: números reais, limites, continuidade, derivadas, integrais, sequências e séries.
+
+> [!tip] Como usar este sumário
+> Use a navegação para acessar as seções. Expanda os blocos para consultar o conteúdo e abra os links para acessar as notas.
+
+## 🧭 Navegação rápida
+
+| Seção | Acesso |
+| --- | --- |
+| 01 | [[#🎯 Bem-vindo à Análise Real\|🎯 Bem-vindo à Análise Real]] |
+| 02 | [[#📚 Estrutura do Curso\|📚 Estrutura do Curso]] |
+| 03 | [[#🎯 Objetivos de Aprendizagem\|🎯 Objetivos de Aprendizagem]] |
+| 04 | [[#📚 Análise 1 - Estrutura da Disciplina\|📚 Análise 1 - Estrutura da Disciplina]] |
+| 05 | [[#📌 Notas Adicionais (Não listados na imagem mas complementares)\|📌 Notas Adicionais (Não listados na imagem mas complementares)]] |
+| 06 | [[#📝 Ferramentas de Estudo\|📝 Ferramentas de Estudo]] |
+| 07 | [[#⚡ Dicas de Estudo\|⚡ Dicas de Estudo]] |
+| 08 | [[#🔍 Navegação Rápida\|🔍 Navegação Rápida]] |
+| 09 | [[#💡 Citação Motivacional\|💡 Citação Motivacional]] |
+
+---
 
 > [!quote] _"A matemática é a linguagem na qual Deus escreveu o universo."_ - Galileu Galilei
 
 ---
-## 🎯 **Bem-vindo à Análise Real**
+## 🎯 Bem-vindo à Análise Real
 
 Este vault é dedicado ao estudo de **Análise 1** (Análise Real), uma das disciplinas mais fundamentais da matemática superior. Aqui você encontrará uma abordagem estruturada e rigorosa dos conceitos que formam a base do cálculo e da análise matemática moderna.
 
 ---
 
-## 📚 **Estrutura do Curso**
+## 📚 Estrutura do Curso
 
-### 🏗️ **Fundamentos**
+### 🏗️ Fundamentos
 
-```mermaid
-graph TB
-    A[Números Reais] --> B[Sequências]
-    B --> C[Limites]
-    C --> D[Continuidade]
-    D --> E[Derivadas]
-    E --> F[Integral de Riemann]
-```
+> [!note]- 🏗️ Fundamentos
+>
+> ```mermaid
+> graph TB
+>     A[Números Reais] --> B[Sequências]
+>     B --> C[Limites]
+>     C --> D[Continuidade]
+>     D --> E[Derivadas]
+>     E --> F[Integral de Riemann]
+> ```
+
 ---
 
-## 🎯 **Objetivos de Aprendizagem**
+## 🎯 Objetivos de Aprendizagem
 
 - Compreender rigorosamente os **números reais** e suas propriedades
 - Trabalhar com **sequências e séries** com precisão matemática
@@ -31,134 +68,196 @@ graph TB
 - Aplicar o **Teorema do Valor Médio** e suas consequências
 - Construir a **integral de Riemann** a partir dos primeiros princípios
 
-# 📚 Análise 1 - Estrutura da Disciplina
+## 📚 Análise 1 - Estrutura da Disciplina
 
-## 1. Derivadas
-- [[Definição de Derivada]]
-- [[Regras de Derivação]]
-- [[Derivadas de Ordem Superior]]
-- [[Derivadas de Funções Elementares]]
-- [[Regra da Cadeia]]
-- [[Derivação Implícita]]
-- [[Taxas Relacionadas]]
+### 1. Derivadas
 
-## 2. Integral
-- [[Definição de Integral]]
-- [[Integral de Riemann]]
-- [[Teorema Fundamental do Cálculo]]
-- [[Técnicas de Integração]]
-- [[Integração por Substituição]]
-- [[Integração por Partes]]
-- [[Integração por Frações Parciais]]
-- [[Integrais Impróprias]]
+> [!note]- 1. Derivadas
+>
+> - [[Definição de Derivada]]
+> - [[Regras de Derivação]]
+> - [[Derivadas de Ordem Superior]]
+> - [[Derivadas de Funções Elementares]]
+> - [[Regra da Cadeia]]
+> - [[Derivação Implícita]]
+> - [[Taxas Relacionadas]]
+>
 
-## 3. Limites
-- [[Cálculo/Cálculo 1/limite/Limites]]
-- [[Definição ε-δ de Limite]]
-- [[Teoremas sobre Limites]]
-- [[Propriedades dos Limites]]
-- [[Limites Fundamentais]]
+### 2. Integral
 
-### 3.1 Funções Contínuas em Intervalos
-- [[Definição de Continuidade]]
-- [[Continuidade em Intervalos]]
-- [[Teorema do Valor Intermediário]]
-- [[Teorema de Weierstrass]]
-- [[Continuidade Uniforme]]
+> [!note]- 2. Integral
+>
+> - [[Definição de Integral]]
+> - [[Integral de Riemann]]
+> - [[Teorema Fundamental do Cálculo]]
+> - [[Técnicas de Integração]]
+> - [[Integração por Substituição]]
+> - [[Integração por Partes]]
+> - [[Integração por Frações Parciais]]
+> - [[Integrais Impróprias]]
+>
 
-### 3.2 Limite de Funções
-- [[Cálculo/Cálculo 1/limite/Limite de Funções]]
-- [[Operações com Limites]]
-- [[Limites Trigonométricos]]
-- [[Limites Exponenciais e Logarítmicos]]
+### 3. Limites
 
-### 3.3 Limites Infinitos
-- [[Cálculo/Cálculo 1/limite/Limites Infinitos]]
-- [[Assíntotas Verticais]]
-- [[Limites com Tendência ao Infinito]]
-- [[Comparação de Infinitos]]
+> [!note]- 3. Limites
+>
+> - [[Cálculo/Cálculo 1/limite/Limites]]
+> - [[Definição ε-δ de Limite]]
+> - [[Teoremas sobre Limites]]
+> - [[Propriedades dos Limites]]
+> - [[Limites Fundamentais]]
+>
 
-### 3.4 Limites Laterais
-- [[Cálculo/Cálculo 1/limite/Limites Laterais]]
-- [[Limite à Direita]]
-- [[Limite à Esquerda]]
-- [[Existência do Limite]]
+#### 3.1 Funções Contínuas em Intervalos
 
-## 4. Números
+> [!note]- 3.1 Funções Contínuas em Intervalos
+>
+> - [[Definição de Continuidade]]
+> - [[Continuidade em Intervalos]]
+> - [[Teorema do Valor Intermediário]]
+> - [[Teorema de Weierstrass]]
+> - [[Continuidade Uniforme]]
+>
 
-### 4.1 Conjuntos
-- [[Conjunto]]
-- [[Conjunto Aberto]]
-- [[Conjunto Convexo]]
-- [[Conjunto Enumerável]]
-- [[Conjunto Fechado]]
-- [[Conjunto Finito]]
-- [[Conjunto Ilimitado]]
-- [[Conjunto Infinito]]
-- [[Conjunto Limitado]]
-- [[Conjunto Não Enumerável]]
-- [[Subconjuntos]]
-- [[Operações entre Conjuntos]]
+#### 3.2 Limite de Funções
 
-### 4.2 Corpos
-- [[Corpos]]
-- [[Corpo Ordenado]]
-- [[Corpo Completo]]
-- [[Axiomas de Corpo]]
-- [[Corpo dos Números Reais]]
+> [!note]- 3.2 Limite de Funções
+>
+> - [[Cálculo/Cálculo 1/limite/Limite de Funções]]
+> - [[Operações com Limites]]
+> - [[Limites Trigonométricos]]
+> - [[Limites Exponenciais e Logarítmicos]]
+>
 
-### 4.3 Inteiros
-- [[Inteiros]]
-- [[Números Inteiros]]
-- [[Relação de Ordem nos Inteiros]]
-- [[Divisibilidade em Z]]
-- [[Princípio da Boa Ordenação]] (PBO)
+#### 3.3 Limites Infinitos
 
-### 4.4 Reais
-- [[Reais]]
-- [[Números Reais]]
-- [[Axiomas dos Números Reais]]
-- [[Propriedade do Supremo]]
-- [[Densidade dos Racionais]]
-- [[Princípio de Arquimedes]]
-- [[Números Irracionais]]
+> [!note]- 3.3 Limites Infinitos
+>
+> - [[Cálculo/Cálculo 1/limite/Limites Infinitos]]
+> - [[Assíntotas Verticais]]
+> - [[Limites com Tendência ao Infinito]]
+> - [[Comparação de Infinitos]]
+>
 
-### 4.5 PBO (Princípio da Boa Ordenação)
-- [[Princípio da Boa Ordenação]]
-- [[Indução Finita]]
-- [[Aplicações do PBO]]
+#### 3.4 Limites Laterais
 
-## 5. Sequências
-- [[Definição de Sequência]]
-- [[Notação de Sequências]]
-- [[Convergência de Sequências]]
-- [[Limite de Sequência]]
-- [[Sequências Monótonas]]
-- [[Sequências Limitadas]]
-- [[Teorema do Confronto para Sequências]]
-- [[Sequências de Cauchy]]
-- [[Subsequências]]
-- [[Teorema de Bolzano-Weierstrass]]
-- [[Sequências Recursivas]]
+> [!note]- 3.4 Limites Laterais
+>
+> - [[Cálculo/Cálculo 1/limite/Limites Laterais]]
+> - [[Limite à Direita]]
+> - [[Limite à Esquerda]]
+> - [[Existência do Limite]]
+>
 
-## 6. Séries
+### 4. Números
 
-### 6.1 Séries Absolutamente Convergentes
-- [[Séries Absolutamente convergentes]]
-- [[Convergência Absoluta]]
-- [[Critério da Raiz]]
-- [[Critério da Razão]]
-- [[Teste da Comparação]]
 
-### 6.2 Testes das Séries
-- [[Testes de Convergência]]
-- [[Teste da Divergência]]
-- [[Teste da Comparação no Limite]]
-- [[Teste da Integral]]
-- [[Teste da Razão (D'Alembert)]]
-- [[Teste da Raiz (Cauchy)]]
-- [[Teste das Séries Alternadas]]
-- [[Teste de Leibniz]]
+#### 4.1 Conjuntos
+
+> [!note]- 4.1 Conjuntos
+>
+> - [[Conjunto]]
+> - [[Conjunto Aberto]]
+> - [[Conjunto Convexo]]
+> - [[Conjunto Enumerável]]
+> - [[Conjunto Fechado]]
+> - [[Conjunto Finito]]
+> - [[Conjunto Ilimitado]]
+> - [[Conjunto Infinito]]
+> - [[Conjunto Limitado]]
+> - [[Conjunto Não Enumerável]]
+> - [[Subconjuntos]]
+> - [[Operações entre Conjuntos]]
+>
+
+#### 4.2 Corpos
+
+> [!note]- 4.2 Corpos
+>
+> - [[Corpos]]
+> - [[Corpo Ordenado]]
+> - [[Corpo Completo]]
+> - [[Axiomas de Corpo]]
+> - [[Corpo dos Números Reais]]
+>
+
+#### 4.3 Inteiros
+
+> [!note]- 4.3 Inteiros
+>
+> - [[Inteiros]]
+> - [[Números Inteiros]]
+> - [[Relação de Ordem nos Inteiros]]
+> - [[Divisibilidade em Z]]
+> - [[Princípio da Boa Ordenação]] (PBO)
+>
+
+#### 4.4 Reais
+
+> [!note]- 4.4 Reais
+>
+> - [[Reais]]
+> - [[Números Reais]]
+> - [[Axiomas dos Números Reais]]
+> - [[Propriedade do Supremo]]
+> - [[Densidade dos Racionais]]
+> - [[Princípio de Arquimedes]]
+> - [[Números Irracionais]]
+>
+
+#### 4.5 PBO (Princípio da Boa Ordenação)
+
+> [!note]- 4.5 PBO (Princípio da Boa Ordenação)
+>
+> - [[Princípio da Boa Ordenação]]
+> - [[Indução Finita]]
+> - [[Aplicações do PBO]]
+>
+
+### 5. Sequências
+
+> [!note]- 5. Sequências
+>
+> - [[Definição de Sequência]]
+> - [[Notação de Sequências]]
+> - [[Convergência de Sequências]]
+> - [[Limite de Sequência]]
+> - [[Sequências Monótonas]]
+> - [[Sequências Limitadas]]
+> - [[Teorema do Confronto para Sequências]]
+> - [[Sequências de Cauchy]]
+> - [[Subsequências]]
+> - [[Teorema de Bolzano-Weierstrass]]
+> - [[Sequências Recursivas]]
+>
+
+### 6. Séries
+
+
+#### 6.1 Séries Absolutamente Convergentes
+
+> [!note]- 6.1 Séries Absolutamente Convergentes
+>
+> - [[Séries Absolutamente convergentes]]
+> - [[Convergência Absoluta]]
+> - [[Critério da Raiz]]
+> - [[Critério da Razão]]
+> - [[Teste da Comparação]]
+>
+
+#### 6.2 Testes das Séries
+
+> [!note]- 6.2 Testes das Séries
+>
+> - [[Testes de Convergência]]
+> - [[Teste da Divergência]]
+> - [[Teste da Comparação no Limite]]
+> - [[Teste da Integral]]
+> - [[Teste da Razão (D'Alembert)]]
+> - [[Teste da Raiz (Cauchy)]]
+> - [[Teste das Séries Alternadas]]
+> - [[Teste de Leibniz]]
+>
 
 ## 📌 Notas Adicionais (Não listados na imagem mas complementares)
 
@@ -179,18 +278,21 @@ Essa é a **lista reorganizada** com base na estrutura da sua imagem. Posso tamb
 4. Criar um arquivo `Índice.md` com todos esses links
 
 Qual você prefere?
-## 📝 **Ferramentas de Estudo**
+## 📝 Ferramentas de Estudo
 
-### 📚 **Bibliografia Principal**
+### 📚 Bibliografia Principal
 
-- **Rudin** - Principles of Mathematical Analysis
-- **Bartle & Sherbert** - Introduction to Real Analysis
-- **Abbott** - Understanding Analysis
-- **Lima** - Curso de Análise Real
+> [!note]- 📚 Bibliografia Principal
+>
+> - **Rudin** - Principles of Mathematical Analysis
+> - **Bartle & Sherbert** - Introduction to Real Analysis
+> - **Abbott** - Understanding Analysis
+> - **Lima** - Curso de Análise Real
+>
 
 ---
 
-## ⚡ **Dicas de Estudo**
+## ⚡ Dicas de Estudo
 
 > [!tip] **Para Demonstrações**
 > 
@@ -206,17 +308,20 @@ Qual você prefere?
 > - Usar propriedades antes de demonstrá-las
 
 ---
-## 🔍 **Navegação Rápida**
+## 🔍 Navegação Rápida
 
-### 🏷️ **Tags Principais**
+### 🏷️ Tags Principais
 
-- `#teorema` - Teoremas importantes
-- `#definicao` - Definições fundamentais
-- `#demonstracao` - Provas detalhadas
-- `#exercicio` - Problemas resolvidos
-- `#exemplo` - Exemplos ilustrativos
+> [!note]- 🏷️ Tags Principais
+>
+> - `#teorema` - Teoremas importantes
+> - `#definicao` - Definições fundamentais
+> - `#demonstracao` - Provas detalhadas
+> - `#exercicio` - Problemas resolvidos
+> - `#exemplo` - Exemplos ilustrativos
+>
 
-## 💡 **Citação Motivacional**
+## 💡 Citação Motivacional
 
 > [!quote] **Lembrete Diário** _"Em matemática, você não entende as coisas. Você apenas se acostuma com elas."_ - John von Neumann
 > 
